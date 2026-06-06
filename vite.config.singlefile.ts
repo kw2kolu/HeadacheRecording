@@ -8,5 +8,11 @@ export default defineConfig({
   build: {
     outDir: 'dist-single',
     cssCodeSplit: false,
+    rollupOptions: {
+      output: {
+        format: 'iife',
+        inlineDynamicImports: true,
+      },
+    },
   },
 })
