@@ -1,122 +1,151 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { useState, useCallback } from 'react';
+import './index.css';
+import { CalendarView } from './CalendarView';
+import { DayModal } from './DayModal';
+import { MonthlyStats } from './MonthlyStats';
+import { exportPDF } from './PDFExport';
+import { getMonthRecords } from './storage';
+import type { MonthData } from './types';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const today = new Date();
+  const [year, setYear] = useState(today.getFullYear());
+  const [month, setMonth] = useState(today.getMonth() + 1); // 1-12
+  const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [monthData, setMonthData] = useState<MonthData>(() =>
+    getMonthRecords(today.getFullYear(), today.getMonth() + 1)
+  );
+
+  const refreshData = useCallback(() => {
+    setMonthData(getMonthRecords(year, month));
+  }, [year, month]);
+
+  const goToPrevMonth = () => {
+    let y = year, m = month - 1;
+    if (m < 1) { m = 12; y--; }
+    setYear(y); setMonth(m);
+    setMonthData(getMonthRecords(y, m));
+  };
+
+  const goToNextMonth = () => {
+    let y = year, m = month + 1;
+    if (m > 12) { m = 1; y++; }
+    setYear(y); setMonth(m);
+    setMonthData(getMonthRecords(y, m));
+  };
+
+  const goToToday = () => {
+    const t = new Date();
+    setYear(t.getFullYear());
+    setMonth(t.getMonth() + 1);
+    setMonthData(getMonthRecords(t.getFullYear(), t.getMonth() + 1));
+  };
+
+  const handleDayClick = (date: string) => {
+    setSelectedDate(date);
+  };
+
+  const handleModalClose = () => {
+    setSelectedDate(null);
+  };
+
+  const handleModalSaved = () => {
+    refreshData();
+  };
+
+  const handleExportPDF = async () => {
+    await exportPDF(year, month, monthData);
+  };
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+    <div className="min-h-screen bg-gray-100">
+      {/* Header */}
+      <header className="bg-white shadow-sm sticky top-0 z-40">
+        <div className="max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <button
+              onClick={goToPrevMonth}
+              className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-gray-100 text-gray-600 font-bold text-lg"
+              aria-label="前の月"
+            >
+              ‹
+            </button>
+            <h1 className="text-xl font-bold text-gray-800 min-w-[120px] text-center">
+              {year}年{month}月
+            </h1>
+            <button
+              onClick={goToNextMonth}
+              className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-gray-100 text-gray-600 font-bold text-lg"
+              aria-label="次の月"
+            >
+              ›
+            </button>
+          </div>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={goToToday}
+              className="text-sm px-3 py-1.5 border border-gray-300 rounded-lg hover:bg-gray-50 text-gray-600"
+            >
+              今日
+            </button>
+            <button
+              onClick={handleExportPDF}
+              className="text-sm px-3 py-1.5 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 font-medium"
+            >
+              PDF出力
+            </button>
+          </div>
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+      </header>
 
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+      {/* Main */}
+      <main className="max-w-2xl mx-auto px-4 py-4 space-y-4">
+        {/* Calendar */}
+        <div className="bg-white rounded-2xl shadow-sm p-4">
+          <CalendarView
+            year={year}
+            month={month}
+            monthData={monthData}
+            onDayClick={handleDayClick}
+          />
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+        {/* Legend */}
+        <div className="bg-white rounded-2xl shadow-sm p-4">
+          <h2 className="text-sm font-semibold text-gray-500 mb-2">凡例</h2>
+          <div className="flex flex-wrap gap-2">
+            {[
+              { label: '記録なし', bg: '#f9fafb', border: '#e5e7eb' },
+              { label: '首痛止まり', bg: '#fefde8', border: '#fef08a' },
+              { label: '頭痛（仕事できる）', bg: '#fed7aa', border: '#fb923c' },
+              { label: '頭痛（ギリ仕事できる）', bg: '#fecaca', border: '#f87171' },
+              { label: '頭痛（仕事できない）', bg: '#ef4444', border: '#dc2626' },
+            ].map(item => (
+              <div key={item.label} className="flex items-center gap-1.5">
+                <div
+                  className="w-4 h-4 rounded border"
+                  style={{ backgroundColor: item.bg, borderColor: item.border }}
+                />
+                <span className="text-xs text-gray-600">{item.label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Stats */}
+        <MonthlyStats year={year} month={month} monthData={monthData} />
+      </main>
+
+      {/* Modal */}
+      {selectedDate && (
+        <DayModal
+          date={selectedDate}
+          onClose={handleModalClose}
+          onSaved={handleModalSaved}
+        />
+      )}
+    </div>
+  );
 }
 
-export default App
+export default App;
