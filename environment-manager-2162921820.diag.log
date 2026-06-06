@@ -1,0 +1,15 @@
+{"data":null,"event":"start_task_run","source":"env_manager","timestamp":"2026-06-06T05:30:14.389938912Z"}
+{"data":null,"event":"parallel_init_started","source":"env_manager","timestamp":"2026-06-06T05:30:14.3945639Z"}
+{"data":null,"event":"mcp_registration_started","source":"env_manager","timestamp":"2026-06-06T05:30:14.394998463Z"}
+{"data":null,"event":"env_init_started","source":"env_manager","timestamp":"2026-06-06T05:30:14.395240192Z"}
+{"data":{"count":1},"event":"sources_processing_started","source":"env_manager","timestamp":"2026-06-06T05:30:14.39536299Z"}
+{"data":null,"event":"git_clone_started","source":"env_manager","timestamp":"2026-06-06T05:30:14.395752499Z"}
+{"data":{"duration_ms":6,"server_count":1},"event":"mcp_registration_completed","source":"env_manager","timestamp":"2026-06-06T05:30:14.401464571Z"}
+{"data":{"duration_ms":1159,"pack_size_duration_ms":0,"repo_size_bytes":0},"event":"git_clone_completed","source":"env_manager","timestamp":"2026-06-06T05:30:15.555177834Z"}
+{"data":{"duration_ms":1446,"source_count":1,"success_count":1},"event":"sources_processing_completed","source":"env_manager","timestamp":"2026-06-06T05:30:15.841527045Z"}
+{"data":{"duration_ms":1917},"event":"env_init_completed","source":"env_manager","timestamp":"2026-06-06T05:30:16.312247298Z"}
+{"data":{"dream_success":true,"duration_ms":1917,"env_success":true,"mcp_success":true,"skill_success":true},"event":"parallel_init_completed","source":"env_manager","timestamp":"2026-06-06T05:30:16.312681954Z"}
+{"data":{"arg_count":27},"event":"starting_claude_code","source":"env_manager","timestamp":"2026-06-06T05:30:16.322174869Z"}
+{"data":null,"event":"claude_code_start","source":"env_manager","timestamp":"2026-06-06T05:30:16.322205811Z"}
+{"data":{"duration_ms":1346497,"exit_code":143,"is_error":true},"event":"claude_code_end","source":"env_manager","timestamp":"2026-06-06T05:52:42.819173383Z"}
+{"data":null,"event":"end_task_run","source":"env_manager","timestamp":"2026-06-06T05:52:42.820111216Z"}

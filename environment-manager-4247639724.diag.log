@@ -1,0 +1,11 @@
+{"data":null,"event":"start_task_run","source":"env_manager","timestamp":"2026-06-06T05:53:19.859276641Z"}
+{"data":null,"event":"parallel_init_started","source":"env_manager","timestamp":"2026-06-06T05:53:19.865872333Z"}
+{"data":null,"event":"mcp_registration_started","source":"env_manager","timestamp":"2026-06-06T05:53:19.866199244Z"}
+{"data":null,"event":"env_init_started","source":"env_manager","timestamp":"2026-06-06T05:53:19.866811054Z"}
+{"data":{"duration_ms":12,"server_count":1},"event":"mcp_registration_completed","source":"env_manager","timestamp":"2026-06-06T05:53:19.878417976Z"}
+{"data":{"duration_ms":106},"event":"env_init_completed","source":"env_manager","timestamp":"2026-06-06T05:53:19.972803099Z"}
+{"data":{"dream_success":true,"duration_ms":106,"env_success":true,"mcp_success":true,"skill_success":true},"event":"parallel_init_completed","source":"env_manager","timestamp":"2026-06-06T05:53:19.972946131Z"}
+{"data":{"arg_count":26},"event":"starting_claude_code","source":"env_manager","timestamp":"2026-06-06T05:53:20.16191075Z"}
+{"data":null,"event":"claude_code_start","source":"env_manager","timestamp":"2026-06-06T05:53:20.161948513Z"}
+{"data":{"duration_ms":298133,"exit_code":143,"is_error":true},"event":"claude_code_end","source":"env_manager","timestamp":"2026-06-06T05:58:18.295634831Z"}
+{"data":null,"event":"end_task_run","source":"env_manager","timestamp":"2026-06-06T05:58:18.296519403Z"}

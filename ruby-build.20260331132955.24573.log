@@ -1,0 +1,1898 @@
+cd /tmp/ruby-build.20260331132955.24573.MLyP8c
+==> Downloading ruby-3.3.6.tar.gz...
+-> curl -q -fL -o ruby-3.3.6.tar.gz https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.6.tar.gz
+-> tar xzf ruby-3.3.6.tar.gz
+cd /tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6
+==> Installing ruby-3.3.6...
+-> ./configure --prefix=/opt/rbenv/versions/3.3.6 --enable-shared --with-ext=openssl,psych,+ --disable-install-doc
+checking for ruby... /opt/rbenv/shims/ruby
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking for ld... ld
+checking for gcc-ar... gcc-ar
+checking for g++... g++
+checking for gcc-nm... gcc-nm
+checking for gcc-ranlib... gcc-ranlib
+checking for gcc... (cached) gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking how to run the C preprocessor... gcc -E
+checking for gas... no
+checking for as... as
+checking for gobjcopy... no
+checking for objcopy... objcopy
+checking for gobjdump... no
+checking for objdump... objdump
+checking for gstrip... no
+checking for strip... strip
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for vfork.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking whether the linker is GNU ld... yes
+checking whether gcc -E accepts -o... yes
+checking for gcc-ar flags... rcD
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for dtrace... no
+checking for dot... no
+checking for doxygen... no
+checking for pkg-config... pkg-config
+checking whether it is Android... no
+checking for cd using physical directory... cd -P
+checking whether CFLAGS is valid... yes
+checking whether LDFLAGS is valid... yes
+checking whether ELF binaries are produced... yes
+checking whether -Wl,-rpath,. is accepted as LDFLAGS... yes
+checking whether -fdeclspec is accepted as LDFLAGS... no
+checking whether -fdeclspec is accepted as CXXFLAGS... no
+checking whether -Wextra-tokens is accepted as CFLAGS... no
+checking whether -Wdeprecated-declarations is accepted as CFLAGS... yes
+checking whether -Wdivision-by-zero is accepted as CFLAGS... no
+checking whether -Wdiv-by-zero is accepted as CFLAGS... yes
+checking whether -Wduplicated-cond is accepted as CFLAGS... yes
+checking whether -Wimplicit-function-declaration is accepted as CFLAGS... yes
+checking whether -Wimplicit-int is accepted as CFLAGS... yes
+checking whether -Wpointer-arith is accepted as CFLAGS... yes
+checking whether -Wshorten-64-to-32 is accepted as CFLAGS... no
+checking whether -Wwrite-strings is accepted as CFLAGS... yes
+checking whether -Wold-style-definition is accepted as CFLAGS... yes
+checking whether -Wimplicit-fallthrough=0 is accepted as CFLAGS... yes
+checking whether -Wmissing-noreturn is accepted as CFLAGS... yes
+checking whether -Wno-cast-function-type is accepted as CFLAGS... yes
+checking whether -Wno-constant-logical-operand is accepted as CFLAGS... yes
+checking whether -Wno-long-long is accepted as CFLAGS... yes
+checking whether -Wno-missing-field-initializers is accepted as CFLAGS... yes
+checking whether -Wno-overlength-strings is accepted as CFLAGS... yes
+checking whether -Wno-packed-bitfield-compat is accepted as CFLAGS... yes
+checking whether -Wno-parentheses-equality is accepted as CFLAGS... yes
+checking whether -Wno-self-assign is accepted as CFLAGS... yes
+checking whether -Wno-tautological-compare is accepted as CFLAGS... yes
+checking whether -Wno-unused-parameter is accepted as CFLAGS... yes
+checking whether -Wno-unused-value is accepted as CFLAGS... yes
+checking whether -Wsuggest-attribute=format is accepted as CFLAGS... yes
+checking whether -Wsuggest-attribute=noreturn is accepted as CFLAGS... yes
+checking whether -Wunused-variable is accepted as CFLAGS... yes
+checking whether -diag-disable=175,188,1684,2259,2312 is accepted as CFLAGS... no
+checking whether -Wmisleading-indentation is accepted as CFLAGS... yes
+checking whether -Wundef is accepted as CFLAGS... yes
+checking whether -Wall -Wextra is accepted as CFLAGS... yes
+checking whether -Qunused-arguments is accepted as CFLAGS... no
+checking whether -O3 -D_FORTIFY_SOURCE=2 is accepted as CFLAGS... yes
+checking whether -fstack-protector-strong is accepted as CFLAGS... yes
+checking whether -fstack-protector-strong is accepted as LDFLAGS... yes
+checking for -fstack-protector... -fstack-protector-strong
+checking whether -Wl,--compress-debug-sections=zlib is accepted as LDFLAGS... yes
+checking whether -fno-strict-overflow is accepted as CFLAGS... yes
+checking whether -ggdb3 is accepted as CFLAGS... yes
+checking whether -fvisibility=hidden is accepted as CFLAGS... yes
+checking whether -fno-fast-math is accepted as CFLAGS... yes
+checking whether -fexcess-precision=standard is accepted as CFLAGS... yes
+checking whether -fp-model precise is accepted as CFLAGS... no
+checking whether compiler has statement and declarations in expressions... yes
+checking for pthread.h... yes
+checking for pthread_create in -lthr... no
+checking for pthread_create in -lpthread... yes
+checking for pthread_np.h... no
+checking thread model... pthread
+checking whether CXXFLAGS is valid... yes
+checking for crypt in -lcrypt... yes
+checking for dlopen in -ldl... yes
+checking for shutdown in -lsocket... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for _Bool... yes
+checking for stdbool.h that conforms to C99... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for afunix.h... no
+checking for atomic.h... no
+checking for copyfile.h... no
+checking for direct.h... no
+checking for grp.h... yes
+checking for fcntl.h... yes
+checking for float.h... yes
+checking for ieeefp.h... no
+checking for intrinsics.h... no
+checking for langinfo.h... yes
+checking for limits.h... yes
+checking for locale.h... yes
+checking for malloc.h... yes
+checking for malloc/malloc.h... no
+checking for malloc_np.h... no
+checking for net/socket.h... no
+checking for process.h... no
+checking for pwd.h... yes
+checking for sanitizer/asan_interface.h... yes
+checking for sanitizer/msan_interface.h... no
+checking for setjmpex.h... no
+checking for stdalign.h... yes
+checking for stdio.h... (cached) yes
+checking for sys/attr.h... no
+checking for sys/eventfd.h... yes
+checking for sys/fcntl.h... yes
+checking for sys/file.h... yes
+checking for sys/id.h... no
+checking for sys/ioctl.h... yes
+checking for sys/mkdev.h... no
+checking for sys/param.h... yes
+checking for sys/prctl.h... yes
+checking for sys/random.h... yes
+checking for sys/resource.h... yes
+checking for sys/select.h... yes
+checking for sys/sendfile.h... yes
+checking for sys/socket.h... yes
+checking for sys/syscall.h... yes
+checking for sys/sysmacros.h... yes
+checking for sys/time.h... yes
+checking for sys/times.h... yes
+checking for sys/uio.h... yes
+checking for sys/utime.h... no
+checking for syscall.h... yes
+checking for time.h... yes
+checking for ucontext.h... yes
+checking for utime.h... yes
+checking for sys/epoll.h... yes
+checking for sys/event.h... no
+checking for stdatomic.h... yes
+checking for x86intrin.h... yes
+checking for x86intrin.h when defined(__x86_64__)... yes
+checking for gmp.h... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether byte ordering is bigendian... no
+checking for an ANSI C-conforming const... yes
+checking whether char is unsigned... no
+checking for inline... inline
+checking for working volatile... yes
+checking for typeof syntax and keyword spelling... typeof
+checking for C/C++ restrict keyword... __restrict__
+checking for long long... yes
+checking for off_t... yes
+checking char bit... 8
+checking size of int... 4
+checking size of short... 2
+checking size of long... 8
+checking size of long long... 8
+checking size of __int64... 0
+checking size of __int128... 16
+checking size of off_t... 8
+checking size of void*... 8
+checking size of float... 4
+checking size of double... 8
+checking size of time_t... 8
+checking size of clock_t... 8
+checking word size... 8
+checking packed struct attribute... x __attribute__((packed))
+checking whether -Wno-address-of-packed-member is accepted as CFLAGS... yes
+checking for printf prefix for long long... ll
+checking for pid_t... yes
+checking for convertible type of pid_t... INT
+checking for uid_t... yes
+checking for convertible type of uid_t... UINT
+checking for gid_t... yes
+checking for convertible type of gid_t... UINT
+checking for time_t... yes
+checking for convertible type of time_t... LONG
+checking for dev_t... yes
+checking for convertible type of dev_t... ULONG
+checking for mode_t... yes
+checking for convertible type of mode_t... UINT
+checking for rlim_t... yes
+checking for convertible type of rlim_t... ULONG
+checking for off_t... (cached) yes
+checking for convertible type of off_t... LONG
+checking for clockid_t... yes
+checking for convertible type of clockid_t... INT
+checking for variable length macro... yes
+checking if _Alignof() works... yes
+checking for CONSTFUNC function attribute... __attribute__ ((__const__)) x
+checking for PUREFUNC function attribute... __attribute__ ((__pure__)) x
+checking for NORETURN function attribute... __attribute__ ((__noreturn__)) x
+checking for DEPRECATED function attribute... __attribute__ ((__deprecated__)) x
+checking for DEPRECATED_BY function attribute... __attribute__ ((__deprecated__("by "#n))) x
+checking for NOINLINE function attribute... __attribute__ ((__noinline__)) x
+checking for ALWAYS_INLINE function attribute... __attribute__ ((__always_inline__)) x
+checking for NO_SANITIZE function attribute... __attribute__ ((__no_sanitize__(san))) x
+checking for NO_SANITIZE_ADDRESS function attribute... __attribute__ ((__no_sanitize_address__)) x
+checking for NO_ADDRESS_SAFETY_ANALYSIS function attribute... __attribute__ ((__no_address_safety_analysis__)) x
+checking for WARN_UNUSED_RESULT function attribute... __attribute__ ((__warn_unused_result__)) x
+checking for MAYBE_UNUSED function attribute... __attribute__ ((__unused__)) x
+checking for ERRORFUNC function attribute... __attribute__ ((__error__ mesg)) x
+checking for WARNINGFUNC function attribute... __attribute__ ((__warning__ mesg)) x
+checking for WEAK function attribute... __attribute__ ((__weak__)) x
+checking for __attribute__((__depreacted__(msg))) in C++... yes
+checking for std::nullptr_t... yes
+checking for FUNC_STDCALL function attribute... x
+checking for FUNC_CDECL function attribute... x
+checking for FUNC_FASTCALL function attribute... x
+checking for FUNC_UNOPTIMIZED function attribute... __attribute__ ((__optimize__("O0"))) x
+checking for FUNC_MINIMIZED function attribute... __attribute__ ((__optimize__("-Os","-fomit-frame-pointer"))) x
+checking for function alias... alias
+checking for __atomic builtins... yes
+checking for __sync builtins... yes
+checking for __builtin_unreachable... yes
+checking for __assume... no
+checking for exported function attribute... __attribute__ ((__visibility__("default")))
+checking for RUBY_FUNC_NONNULL function attribute... __attribute__ ((__nonnull__(n))) x
+checking for function name string predefined identifier... __func__
+checking if enum over int is allowed... yes
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether sys_nerr is declared... no
+checking whether getenv is declared... yes
+checking for size_t... yes
+checking size of size_t... 8
+checking size of ptrdiff_t... 8
+checking size of dev_t... 8
+checking for printf prefix for size_t... z
+checking for printf prefix for ptrdiff_t... t
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_blocks... yes
+checking for struct stat.st_rdev... yes
+checking size of struct stat.st_size... SIZEOF_OFF_T
+checking size of struct stat.st_blocks... SIZEOF_OFF_T
+checking size of struct stat.st_ino... SIZEOF_LONG
+checking size of struct stat.st_dev... SIZEOF_DEV_T
+checking size of struct stat.st_rdev... SIZEOF_DEV_T
+checking for struct stat.st_atim... yes
+checking for struct stat.st_atimespec... no
+checking for struct stat.st_atimensec... no
+checking for struct stat.st_mtim... yes
+checking for struct stat.st_mtimespec... no
+checking for struct stat.st_mtimensec... no
+checking for struct stat.st_ctim... yes
+checking for struct stat.st_ctimespec... no
+checking for struct stat.st_ctimensec... no
+checking for struct stat.st_birthtimespec... no
+checking for struct statx.stx_btime... yes
+checking for struct timeval... yes
+checking size of struct timeval.tv_sec... SIZEOF_TIME_T
+checking for struct timespec... yes
+checking for struct timezone... yes
+checking for fd_mask... yes
+checking for int8_t... yes
+checking size of int8_t... 1
+checking for uint8_t... yes
+checking size of uint8_t... 1
+checking for int16_t... yes
+checking size of int16_t... 2
+checking for uint16_t... yes
+checking size of uint16_t... 2
+checking for int32_t... yes
+checking size of int32_t... 4
+checking for uint32_t... yes
+checking size of uint32_t... 4
+checking for int64_t... yes
+checking size of int64_t... 8
+checking for uint64_t... yes
+checking size of uint64_t... 8
+checking for int128_t... __int128
+checking for uint128_t... unsigned __int128
+checking for intptr_t... yes
+checking size of intptr_t... 8
+checking for uintptr_t... yes
+checking size of uintptr_t... 8
+checking for printf prefix for intptr_t... NONE
+checking for ssize_t... yes
+checking size of ssize_t... 8
+checking for printf prefix for int64_t... NONE
+checking for stack end address... __libc_stack_end
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for uid_t in sys/types.h... (cached) yes
+checking type of array argument to getgroups... gid_t
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for dynamic size alloca... ok
+checking for working memcmp... yes
+checking for dup... yes
+checking for dup2... yes
+checking for acosh... yes
+checking for cbrt... yes
+checking for crypt... yes
+checking for erf... yes
+checking for explicit_bzero... yes
+checking for ffs... yes
+checking for flock... yes
+checking for hypot... yes
+checking for lgamma_r... yes
+checking for memmove... yes
+checking for nan... yes
+checking for nextafter... yes
+checking for setproctitle... no
+checking for strchr... yes
+checking for strerror... yes
+checking for strlcat... yes
+checking for strlcpy... yes
+checking for strstr... yes
+checking for tgamma... yes
+checking for sys/pstat.h... no
+checking for pid_t... (cached) yes
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for __syscall... no
+checking for _longjmp... yes
+checking for arc4random_buf... yes
+checking for atan2l... yes
+checking for atan2f... yes
+checking whether atomic_signal_fence is declared... yes
+checking for chmod... yes
+checking for chown... yes
+checking for chroot... yes
+checking for chsize... no
+checking for clock_gettime... yes
+checking for copy_file_range... yes
+checking for cosh... yes
+checking for crypt_r... yes
+checking for daemon... (cached) no
+checking for dirfd... yes
+checking for dl_iterate_phdr... yes
+checking for dlopen... yes
+checking for dladdr... yes
+checking for dup3... yes
+checking for eaccess... yes
+checking for endgrent... yes
+checking for eventfd... yes
+checking for execl... yes
+checking for execle... yes
+checking for execv... yes
+checking for execve... yes
+checking for explicit_memset... no
+checking for fcopyfile... no
+checking for fchdir... yes
+checking for fchmod... yes
+checking for fchown... yes
+checking for fcntl... yes
+checking for fdatasync... yes
+checking for fdopendir... yes
+checking for fgetattrlist... no
+checking for fmod... yes
+checking for fstatat... yes
+checking for fsync... yes
+checking for ftruncate... yes
+checking for ftruncate64... yes
+checking for getattrlist... no
+checking for getcwd... yes
+checking for getegid... yes
+checking for getentropy... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getgidx... no
+checking for getgrnam... yes
+checking for getgrnam_r... yes
+checking for getgroups... yes
+checking for getlogin... yes
+checking for getlogin_r... yes
+checking for getpgid... yes
+checking for getpgrp... yes
+checking for getppid... yes
+checking for getpriority... yes
+checking for getpwnam... yes
+checking for getpwnam_r... yes
+checking for getpwuid... yes
+checking for getpwuid_r... yes
+checking for getrandom... yes
+checking for getresgid... yes
+checking for getresuid... yes
+checking for getrlimit... yes
+checking for getsid... yes
+checking for gettimeofday... yes
+checking for getuid... yes
+checking for getuidx... no
+checking for gmtime_r... yes
+checking for grantpt... yes
+checking for initgroups... yes
+checking for ioctl... yes
+checking for isfinite... no
+checking for issetugid... no
+checking for kill... yes
+checking for killpg... yes
+checking for lchmod... yes
+checking for lchown... yes
+checking for link... yes
+checking for llabs... yes
+checking for lockf... yes
+checking for log2... yes
+checking for lstat... yes
+checking for lutimes... yes
+checking for malloc_usable_size... yes
+checking for malloc_size... no
+checking for malloc_trim... yes
+checking for mblen... yes
+checking for memalign... yes
+checking for memset_s... no
+checking for writev... yes
+checking for memrchr... yes
+checking for memmem... yes
+checking for mkfifo... yes
+checking for mknod... yes
+checking for mktime... yes
+checking for mmap... yes
+checking for mremap... yes
+checking for openat... yes
+checking for pclose... yes
+checking for pipe... yes
+checking for pipe2... yes
+checking for poll... yes
+checking for popen... yes
+checking for posix_fadvise... yes
+checking for posix_madvise... yes
+checking for posix_memalign... yes
+checking for ppoll... yes
+checking for pread... yes
+checking for pwrite... yes
+checking for qsort_r... yes
+checking for qsort_s... no
+checking for readlink... yes
+checking for realpath... yes
+checking for round... yes
+checking for sched_getaffinity... yes
+checking for seekdir... yes
+checking for select_large_fdset... no
+checking for sendfile... yes
+checking for setegid... yes
+checking for setenv... yes
+checking for seteuid... yes
+checking for setgid... yes
+checking for setgroups... yes
+checking for setpgid... yes
+checking for setpgrp... yes
+checking for setregid... yes
+checking for setresgid... yes
+checking for setresuid... yes
+checking for setreuid... yes
+checking for setrgid... no
+checking for setrlimit... yes
+checking for setruid... no
+checking for setsid... yes
+checking for setuid... yes
+checking for shutdown... yes
+checking for sigaction... yes
+checking for sigaltstack... yes
+checking for sigprocmask... yes
+checking for sinh... yes
+checking for snprintf... yes
+checking for spawnv... no
+checking for symlink... yes
+checking for syscall... yes
+checking for sysconf... yes
+checking for system... yes
+checking for tanh... yes
+checking for telldir... yes
+checking for timegm... yes
+checking for times... yes
+checking for truncate... yes
+checking for truncate64... yes
+checking for tzset... yes
+checking for umask... yes
+checking for unsetenv... yes
+checking for utimensat... yes
+checking for utimes... yes
+checking for wait4... yes
+checking for waitpid... yes
+checking for __cospi... no
+checking for __sinpi... no
+checking for statx... yes
+checking if getcwd allocates buffer if NULL is given... yes
+checking for crypt.h... yes
+checking for struct crypt_data.initialized... yes
+checking for __builtin_alloca_with_align... yes
+checking for __builtin_assume_aligned... yes
+checking for __builtin_bswap16... yes
+checking for __builtin_bswap32... yes
+checking for __builtin_bswap64... yes
+checking for __builtin_popcount... yes
+checking for __builtin_popcountll... yes
+checking for __builtin_clz... yes
+checking for __builtin_clzl... yes
+checking for __builtin_clzll... yes
+checking for __builtin_ctz... yes
+checking for __builtin_ctzll... yes
+checking for __builtin_add_overflow... yes
+checking for __builtin_sub_overflow... yes
+checking for __builtin_mul_overflow... yes
+checking for __builtin_mul_overflow_p... yes
+checking for __builtin_constant_p... yes
+checking for __builtin_choose_expr... yes
+checking for __builtin_choose_expr_constant_p... yes
+checking for __builtin_types_compatible_p... yes
+checking for __builtin_trap... yes
+checking for __builtin_expect... yes
+checking for __builtin_mul_overflow with long long arguments... yes
+checking whether qsort_r is GNU version... yes
+checking whether qsort_r is BSD version... no
+checking whether atan2 handles Inf as C99... yes
+checking for clock_getres... yes
+checking for timer_create in -lrt... yes
+checking for timer_settime in -lrt... yes
+checking for unsetenv returns a value... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for struct tm.tm_gmtoff... yes
+checking for external int daylight... yes
+checking for negative time_t for gmtime(3)... yes
+checking for localtime(3) overflow correctly... yes
+checking for sig_t... yes
+checking whether right shift preserve sign bit... yes
+checking whether _SC_CLK_TCK is supported... yes
+checking stack growing direction on x86_64... -1
+checking native coroutine implementation for x86_64-linux... amd64
+checking whether pthread_t is scalar type... yes
+checking for sched_yield... yes
+checking for pthread_attr_setinheritsched... yes
+checking for pthread_attr_get_np... no
+checking for pthread_attr_getstack... yes
+checking for pthread_attr_getguardsize... yes
+checking for pthread_get_stackaddr_np... no
+checking for pthread_get_stacksize_np... no
+checking for thr_stksegment... no
+checking for pthread_stackseg_np... no
+checking for pthread_getthrds_np... no
+checking for pthread_condattr_setclock... yes
+checking for pthread_setname_np... yes
+checking for pthread_set_name_np... no
+checking for pthread_sigmask... yes
+checking for pthread_getattr_np... yes
+checking arguments of pthread_setname_np... (pthread_self(), name)
+checking for thread-local storage sepcifier... _Thread_local
+checking if mcontext_t is a pointer... no
+checking for getcontext... yes
+checking for setcontext... yes
+checking if fork works with pthread... yes
+checking for sys/user.h... yes
+checking whether PAGE_SIZE is compile-time const... yes
+checking ioctl request type... unsigned long
+checking for elf.h... yes
+checking for elf_abi.h... no
+checking for uncompress in -lz... yes
+checking for mach-o/loader.h... no
+checking whether OS depend dynamic link works... yes
+checking for backtrace... yes
+checking for broken backtrace... no
+checking for valgrind/memcheck.h... yes
+checking for strip flags... -S -x
+checking whether -Wl,--no-as-needed is accepted as LDFLAGS... yes
+checking whether -Wl,--no-undefined is accepted as LDFLAGS... yes
+checking whether wrapper for LD_LIBRARY_PATH is needed... no
+checking whether dtrace USDT is available... no
+checking for __builtin_setjmp... yes with cast ()
+checking for _setjmpex as a macro or function... no
+checking for _setjmp as a macro or function... yes
+checking for sigsetjmp as a macro or function... no
+checking for setjmp type... __builtin_setjmp
+checking for rustc... no
+checking for prefix of external symbols... NONE
+checking for default symbols in empty shared library... 
+checking if make is GNU make... yes
+.ext/include/x86_64-linux/ruby/config.h updated
+configure: ruby library version = 3.3.0
+configure: creating ./config.status
+config.status: creating GNUmakefile
+config.status: creating Makefile
+---
+Configuration summary for ruby version 3.3.6
+
+   * Installation prefix: /opt/rbenv/versions/3.3.6
+   * exec prefix:         ${prefix}
+   * arch:                x86_64-linux
+   * site arch:           ${arch}
+   * RUBY_BASE_NAME:      ruby
+   * enable shared:       yes
+   * ruby lib prefix:     ${libdir}/${RUBY_BASE_NAME}
+   * site libraries path: ${rubylibprefix}/${sitearch}
+   * vendor path:         ${rubylibprefix}/vendor_ruby
+   * target OS:           linux
+   * compiler:            gcc
+   * with thread:         pthread
+   * with coroutine:      amd64
+   * enable shared libs:  yes
+   * dynamic library ext: so
+   * CFLAGS:              ${optflags} ${debugflags} ${warnflags}
+   * LDFLAGS:             -L. -fstack-protector-strong -rdynamic \
+                          -Wl,-export-dynamic -Wl,--no-as-needed
+   * DLDFLAGS:            -Wl,--compress-debug-sections=zlib
+   * optflags:            -O3 -fno-fast-math
+   * debugflags:          -ggdb3
+   * warnflags:           -Wall -Wextra -Wdeprecated-declarations \
+                          -Wdiv-by-zero -Wduplicated-cond \
+                          -Wimplicit-function-declaration -Wimplicit-int \
+                          -Wpointer-arith -Wwrite-strings \
+                          -Wold-style-definition -Wimplicit-fallthrough=0 \
+                          -Wmissing-noreturn -Wno-cast-function-type \
+                          -Wno-constant-logical-operand -Wno-long-long \
+                          -Wno-missing-field-initializers \
+                          -Wno-overlength-strings \
+                          -Wno-packed-bitfield-compat \
+                          -Wno-parentheses-equality -Wno-self-assign \
+                          -Wno-tautological-compare -Wno-unused-parameter \
+                          -Wno-unused-value -Wsuggest-attribute=format \
+                          -Wsuggest-attribute=noreturn -Wunused-variable \
+                          -Wmisleading-indentation -Wundef
+   * strip command:       strip -S -x
+   * install doc:         no
+   * YJIT support:        no
+   * RJIT support:        yes
+   * man page type:       man
+
+---
+-> make -j 128
+	BASERUBY = ./tool/missing-baseruby.bat
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef   -fPIC 
+	XCFLAGS = -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fno-strict-overflow -fvisibility=hidden -fexcess-precision=standard -DRUBY_EXPORT -I. -I.ext/include/x86_64-linux -I./include -I. -I./prism -I./enc/unicode/15.0.0  
+	CPPFLAGS =   
+	DLDFLAGS = -Wl,--compress-debug-sections=zlib -Wl,-soname,libruby.so.3.3  -fstack-protector-strong  
+	SOLIBS = -lz -lrt -lrt -ldl -lcrypt -lm -lpthread 
+	LANG = 
+	LC_ALL = 
+	LC_CTYPE = 
+	MFLAGS = -j128 --jobserver-auth=6,7
+	RUSTC = no
+	YJIT_RUSTC_ARGS = --crate-name=yjit --crate-type=staticlib --edition=2021 -g -C lto=thin -C opt-level=3 -C overflow-checks=on '--out-dir=/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/yjit/target/release/' ./yjit/src/lib.rs
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+compiling ./main.c
+compiling dmydln.c
+compiling miniinit.c
+compiling dmyext.c
+making dummy probes.h
+compiling ast.c
+compiling bignum.c
+compiling class.c
+compiling compar.c
+compiling compile.c
+compiling complex.c
+compiling cont.c
+compiling debug.c
+compiling debug_counter.c
+compiling dir.c
+compiling dln_find.c
+compiling encoding.c
+compiling enum.c
+compiling enumerator.c
+compiling error.c
+compiling eval.c
+compiling file.c
+compiling gc.c
+compiling hash.c
+compiling inits.c
+compiling io.c
+compiling io_buffer.c
+compiling iseq.c
+compiling load.c
+compiling marshal.c
+compiling math.c
+compiling memory_view.c
+compiling rjit.c
+compiling rjit_c.c
+compiling node.c
+compiling node_dump.c
+compiling numeric.c
+compiling object.c
+compiling pack.c
+compiling parse.c
+compiling parser_st.c
+compiling proc.c
+compiling process.c
+compiling ractor.c
+compiling random.c
+compiling range.c
+compiling rational.c
+compiling re.c
+compiling regcomp.c
+compiling regenc.c
+compiling regerror.c
+compiling regexec.c
+compiling regparse.c
+compiling regsyntax.c
+compiling ruby.c
+compiling ruby_parser.c
+compiling scheduler.c
+compiling shape.c
+compiling signal.c
+compiling sprintf.c
+compiling st.c
+compiling strftime.c
+compiling string.c
+compiling struct.c
+compiling symbol.c
+compiling thread.c
+compiling time.c
+compiling transcode.c
+compiling util.c
+compiling variable.c
+compiling version.c
+compiling vm.c
+compiling vm_backtrace.c
+compiling vm_dump.c
+compiling vm_sync.c
+compiling vm_trace.c
+compiling weakmap.c
+compiling ./missing/setproctitle.c
+compiling addr2line.c
+compiling dmyenc.c
+compiling dln.c
+compiling localeinit.c
+class.c: In function 'do_include_modules_at':
+class.c:1265:29: warning: unused variable 'add_subclass' [-Wunused-variable]
+ 1265 |     int method_changed = 0, add_subclass;
+      |                             ^~~~~~~~~~~~
+compiling array.c
+compiling prism/api_node.c
+compiling prism/api_pack.c
+compiling prism/diagnostic.c
+compiling prism/encoding.c
+compiling prism/extension.c
+compiling prism/node.c
+compiling prism/options.c
+compiling prism/pack.c
+compiling prism/prettyprint.c
+compiling prism/regexp.c
+compiling prism/serialize.c
+compiling prism/token_type.c
+compiling prism/util/pm_buffer.c
+compiling prism/util/pm_char.c
+compiling prism/util/pm_constant_pool.c
+compiling prism/util/pm_list.c
+compiling prism/util/pm_memchr.c
+compiling prism/util/pm_newline_list.c
+compiling prism/util/pm_state_stack.c
+compiling prism/util/pm_string.c
+compiling prism/util/pm_string_list.c
+compiling prism/util/pm_strncasecmp.c
+compiling prism/util/pm_strpbrk.c
+compiling prism/prism.c
+compiling prism_init.c
+assembling coroutine/amd64/Context.S
+compiling enc/ascii.c
+compiling enc/unicode.c
+compiling enc/us_ascii.c
+compiling enc/trans/newline.c
+compiling enc/utf_8.c
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+thread.c: In function 'rb_thread_wait_for_single_fd':
+thread.c:4352:22: warning: variable 'to' might be clobbered by 'longjmp' or 'vfork' [-Wclobbered]
+ 4352 |         rb_hrtime_t *to, rel, end = 0;
+      |                      ^~
+thread.c:4332:66: warning: argument 'timeout' might be clobbered by 'longjmp' or 'vfork' [-Wclobbered]
+ 4332 | rb_thread_wait_for_single_fd(int fd, int events, struct timeval *timeout)
+      |                                                  ~~~~~~~~~~~~~~~~^~~~~~~
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+linking miniruby
+builtin_binary.inc updated
+a5563c3c2ba6d690d66e77a4ab9e61e255d4b30909f61c433c74b1ee9e5746c2  builtin_binary.inc
+compiling builtin.c
+/bin/sh ./tool/ifchange "--timestamp=.rbconfig.time" rbconfig.rb rbconfig.tmp
+rbconfig.rb updated
+generating encdb.h
+creating verconf.h
+generating enc.mk
+verconf.h updated
+compiling loadpath.c
+encdb.h updated
+linking static-library libruby-static.a
+making srcs under enc
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Nothing to be done for 'srcs'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+generating transdb.h
+transdb.h updated
+linking shared-library libruby.so.3.3.6
+generating makefiles ext/configure-ext.mk
+building spec/ruby/optional/capi/ext/array_spec.so
+building spec/ruby/optional/capi/ext/basic_object_spec.so
+building spec/ruby/optional/capi/ext/bignum_spec.so
+building spec/ruby/optional/capi/ext/binding_spec.so
+building spec/ruby/optional/capi/ext/boolean_spec.so
+building spec/ruby/optional/capi/ext/class_id_under_autoload_spec.so
+building spec/ruby/optional/capi/ext/class_spec.so
+building spec/ruby/optional/capi/ext/class_under_autoload_spec.so
+building spec/ruby/optional/capi/ext/complex_spec.so
+building spec/ruby/optional/capi/ext/constants_spec.so
+building spec/ruby/optional/capi/ext/data_spec.so
+building spec/ruby/optional/capi/ext/debug_spec.so
+building spec/ruby/optional/capi/ext/encoding_spec.so
+building spec/ruby/optional/capi/ext/enumerator_spec.so
+building spec/ruby/optional/capi/ext/exception_spec.so
+building spec/ruby/optional/capi/ext/fiber_spec.so
+building spec/ruby/optional/capi/ext/file_spec.so
+building spec/ruby/optional/capi/ext/fixnum_spec.so
+building spec/ruby/optional/capi/ext/float_spec.so
+building spec/ruby/optional/capi/ext/gc_spec.so
+building spec/ruby/optional/capi/ext/globals_spec.so
+building spec/ruby/optional/capi/ext/hash_spec.so
+building spec/ruby/optional/capi/ext/integer_spec.so
+building spec/ruby/optional/capi/ext/io_spec.so
+building spec/ruby/optional/capi/ext/kernel_spec.so
+building spec/ruby/optional/capi/ext/language_spec.so
+building spec/ruby/optional/capi/ext/marshal_spec.so
+building spec/ruby/optional/capi/ext/module_spec.so
+building spec/ruby/optional/capi/ext/module_under_autoload_spec.so
+building spec/ruby/optional/capi/ext/mutex_spec.so
+building spec/ruby/optional/capi/ext/numeric_spec.so
+building spec/ruby/optional/capi/ext/object_spec.so
+building spec/ruby/optional/capi/ext/proc_spec.so
+building spec/ruby/optional/capi/ext/range_spec.so
+building spec/ruby/optional/capi/ext/rational_spec.so
+building spec/ruby/optional/capi/ext/rbasic_spec.so
+building spec/ruby/optional/capi/ext/regexp_spec.so
+building spec/ruby/optional/capi/ext/st_spec.so
+building spec/ruby/optional/capi/ext/string_spec.so
+building spec/ruby/optional/capi/ext/struct_spec.so
+building spec/ruby/optional/capi/ext/symbol_spec.so
+building spec/ruby/optional/capi/ext/thread_spec.so
+building spec/ruby/optional/capi/ext/time_spec.so
+ext/configure-ext.mk updated
+building spec/ruby/optional/capi/ext/tracepoint_spec.so
+building spec/ruby/optional/capi/ext/typed_data_spec.so
+building spec/ruby/optional/capi/ext/util_spec.so
+making enc
+making trans
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+compiling ./enc/encdb.c
+compiling ./enc/trans/transdb.c
+compiling ./enc/big5.c
+compiling ./enc/trans/big5.c
+compiling ./enc/cesu_8.c
+compiling ./enc/trans/cesu_8.c
+compiling ./enc/cp949.c
+compiling ./enc/trans/chinese.c
+compiling ./enc/emacs_mule.c
+compiling ./enc/trans/ebcdic.c
+compiling ./enc/euc_jp.c
+compiling ./enc/trans/emoji.c
+compiling ./enc/euc_kr.c
+compiling ./enc/trans/emoji_iso2022_kddi.c
+compiling ./enc/euc_tw.c
+compiling ./enc/trans/emoji_sjis_docomo.c
+compiling ./enc/gb2312.c
+compiling ./enc/trans/emoji_sjis_kddi.c
+compiling ./enc/trans/emoji_sjis_softbank.c
+compiling ./enc/gb18030.c
+compiling ./enc/gbk.c
+compiling ./enc/trans/escape.c
+compiling ./enc/iso_8859_1.c
+compiling ./enc/trans/gb18030.c
+compiling ./enc/iso_8859_2.c
+compiling ./enc/trans/gbk.c
+compiling ./enc/iso_8859_3.c
+compiling ./enc/trans/iso2022.c
+compiling ./enc/iso_8859_4.c
+compiling ./enc/trans/japanese.c
+compiling ./enc/iso_8859_5.c
+compiling ./enc/trans/japanese_euc.c
+compiling ./enc/iso_8859_6.c
+compiling ./enc/trans/japanese_sjis.c
+compiling ./enc/iso_8859_7.c
+compiling ./enc/iso_8859_8.c
+compiling ./enc/trans/korean.c
+compiling ./enc/iso_8859_9.c
+compiling ./enc/iso_8859_10.c
+compiling ./enc/iso_8859_11.c
+compiling ./enc/iso_8859_13.c
+compiling ./enc/iso_8859_14.c
+compiling ./enc/iso_8859_15.c
+compiling ./enc/iso_8859_16.c
+compiling ./enc/koi8_r.c
+compiling ./enc/koi8_u.c
+compiling ./enc/shift_jis.c
+compiling ./enc/utf_16be.c
+compiling ./enc/utf_16le.c
+compiling ./enc/utf_32be.c
+compiling ./enc/utf_32le.c
+compiling ./enc/windows_31j.c
+compiling ./enc/windows_1250.c
+compiling ./enc/windows_1251.c
+compiling ./enc/trans/single_byte.c
+compiling ./enc/windows_1252.c
+compiling ./enc/trans/utf8_mac.c
+compiling ./enc/windows_1253.c
+compiling ./enc/windows_1254.c
+compiling ./enc/trans/utf_16_32.c
+compiling ./enc/windows_1257.c
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+configuring coverage
+configuring cgi/escape
+configuring json
+configuring bigdecimal
+configuring date
+configuring -test-/RUBY_ALIGNOF
+configuring digest
+configuring psych
+configuring erb/escape
+configuring json/generator
+configuring fcntl
+configuring io/console
+configuring fiddle
+configuring objspace
+configuring etc
+configuring digest/bubblebabble
+configuring nkf
+configuring json/parser
+configuring continuation
+configuring digest/md5
+linking encoding gb2312.so
+configuring openssl
+configuring pty
+configuring monitor
+configuring rbconfig/sizeof
+linking transcoder ebcdic.so
+configuring pathname
+configuring ripper
+configuring stringio
+linking transcoder cesu_8.so
+configuring rubyvm
+configuring socket
+configuring strscan
+linking encoding iso_8859_11.so
+linking encoding euc_kr.so
+configuring zlib
+linking transcoder escape.so
+configuring debug-1.9.2/ext/debug
+linking encoding koi8_r.so
+linking encoding gbk.so
+linking encoding iso_8859_6.so
+configuring syslog
+configuring racc-1.7.3/ext/racc/cparse
+linking encoding iso_8859_10.so
+linking encoding encdb.so
+linking transcoder transdb.so
+linking encoding cp949.so
+linking encoding euc_tw.so
+linking encoding iso_8859_2.so
+linking encoding iso_8859_4.so
+linking encoding iso_8859_5.so
+linking encoding koi8_u.so
+linking encoding utf_32be.so
+linking encoding big5.so
+linking encoding iso_8859_3.so
+linking encoding iso_8859_8.so
+linking encoding iso_8859_13.so
+linking encoding utf_32le.so
+linking transcoder japanese.so
+linking encoding utf_16le.so
+linking encoding utf_16be.so
+configuring rbs-3.4.0/ext/rbs_extension
+linking encoding iso_8859_7.so
+linking encoding iso_8859_15.so
+linking encoding windows_1250.so
+linking encoding iso_8859_9.so
+linking encoding windows_1257.so
+linking encoding iso_8859_1.so
+linking encoding iso_8859_14.so
+linking encoding windows_1252.so
+linking encoding windows_1253.so
+linking encoding emacs_mule.so
+linking encoding gb18030.so
+linking encoding windows_1251.so
+linking encoding windows_1254.so
+linking encoding iso_8859_16.so
+linking encoding cesu_8.so
+linking transcoder iso2022.so
+linking transcoder emoji.so
+linking encoding windows_31j.so
+linking encoding shift_jis.so
+linking transcoder utf_16_32.so
+linking encoding euc_jp.so
+linking transcoder single_byte.so
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+configuring -test-/abi
+configuring -test-/arith_seq/beg_len_step
+configuring -test-/arith_seq/extract
+configuring -test-/array/concat
+configuring -test-/array/resize
+configuring -test-/bignum
+configuring -test-/bug-14834
+configuring -test-/bug-3571
+configuring -test-/bug-5832
+linking transcoder emoji_sjis_docomo.so
+configuring -test-/bug_reporter
+configuring -test-/class
+configuring -test-/cxxanyargs
+linking transcoder japanese_sjis.so
+linking transcoder emoji_sjis_softbank.so
+configuring digest/rmd160
+configuring -test-/debug
+linking transcoder emoji_sjis_kddi.so
+configuring -test-/dln/empty
+configuring -test-/econv
+configuring -test-/enumerator_kw
+configuring -test-/eval
+configuring -test-/exception
+linking transcoder emoji_iso2022_kddi.so
+configuring -test-/fatal
+configuring -test-/file
+linking transcoder gb18030.so
+linking transcoder chinese.so
+linking transcoder gbk.so
+configuring digest/sha1
+linking transcoder utf8_mac.so
+linking transcoder korean.so
+libffi_version: 3.4.6
+configuring digest/sha2
+linking transcoder japanese_euc.so
+linking transcoder big5.so
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+making encs
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Nothing to be done for 'encs'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+configuring -test-/float
+configuring -test-/funcall
+configuring -test-/gvl/call_without_gvl
+configuring -test-/hash
+configuring -test-/integer
+configuring -test-/iseq_load
+configuring -test-/iter
+configuring -test-/load/dot.dot
+configuring -test-/load/protect
+configuring -test-/load/resolve_symbol_resolver
+configuring -test-/load/resolve_symbol_target
+configuring -test-/load/stringify_symbols
+configuring -test-/load/stringify_target
+configuring -test-/marshal/compat
+configuring -test-/marshal/internal_ivar
+configuring -test-/marshal/usr
+configuring -test-/memory_status
+configuring -test-/memory_view
+configuring -test-/method
+configuring -test-/notimplement
+configuring -test-/num2int
+configuring -test-/path_to_class
+configuring -test-/popen_deadlock
+configuring -test-/postponed_job
+configuring -test-/printf
+configuring -test-/proc
+configuring -test-/random
+configuring -test-/rational
+configuring -test-/rb_call_super_kw
+configuring -test-/recursion
+configuring -test-/regexp
+configuring -test-/scan_args
+configuring -test-/st/foreach
+configuring -test-/st/numhash
+configuring -test-/st/update
+configuring -test-/string
+configuring -test-/struct
+configuring -test-/symbol
+configuring -test-/thread/instrumentation
+configuring -test-/thread_fd
+configuring -test-/time
+configuring -test-/tracepoint
+configuring -test-/typeddata
+configuring -test-/vm
+configuring -test-/wait
+configuring io/nonblock
+configuring io/wait
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+generating makefile exts.mk
+exts.mk updated
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/RUBY_ALIGNOF'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/cxxanyargs'
+compiling c.c
+compiling cxxanyargs.cpp
+compiling cpp.cpp
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/arith_seq/beg_len_step'
+compiling beg_len_step.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/econv'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/arith_seq/extract'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/array/resize'
+compiling append.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/eval'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/array/concat'
+compiling resize.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bug-3571'
+compiling eval.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bug-14834'
+compiling extract.c
+compiling to_ary_concat.c
+compiling bug.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bignum'
+compiling bug-14384.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bug_reporter'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bug-5832'
+compiling big2str.c
+compiling bug_reporter.c
+compiling bug.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/debug'
+compiling bigzero.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/enumerator_kw'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/dln/empty'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/class'
+compiling init.c
+compiling div.c
+compiling enumerator_kw.c
+compiling empty.c
+compiling inspector.c
+compiling class2name.c
+compiling profile_frames.c
+compiling init.c
+compiling intpack.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/exception'
+compiling dataerror.c
+compiling mul.c
+compiling str2big.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/resolve_symbol_target'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/stringify_symbols'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/resolve_symbol_resolver'
+compiling resolve_symbol_target.c
+compiling enc_raise.c
+compiling stringify_symbols.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/fatal'
+compiling resolve_symbol_resolver.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/file'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/float'
+compiling ensured.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/stringify_target'
+compiling rb_fatal.c
+compiling fs.c
+compiling stringify_target.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/funcall'
+compiling init.c
+compiling init.c
+compiling funcall.c
+compiling nextafter.c
+compiling stat.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/gvl/call_without_gvl'
+compiling call_without_gvl.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/hash'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/integer'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/iter'
+compiling delete.c
+compiling core_ext.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/protect'
+compiling break.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/iseq_load'
+compiling protect.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/dot.dot'
+compiling my_integer.c
+compiling yield.c
+compiling iseq_load.c
+compiling dot.dot.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/marshal/compat'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/marshal/usr'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/num2int'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/method'
+compiling usrcompat.c
+compiling usrmarshal.c
+compiling num2int.c
+compiling arity.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/memory_view'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/marshal/internal_ivar'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/notimplement'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/path_to_class'
+compiling init.c
+compiling internal_ivar.c
+compiling bug.c
+compiling memory_view.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/random'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/postponed_job'
+compiling path_to_class.c
+compiling bad_version.c
+compiling postponed_job.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/popen_deadlock'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/recursion'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/rb_call_super_kw'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/regexp'
+compiling infinite_loop_dlsym.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/proc'
+compiling init.c
+compiling recursion.c
+compiling rb_call_super_kw.c
+compiling init.c
+compiling loop.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/erb/escape'
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/scan_args'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/rational'
+compiling parse_depth_limit.c
+compiling escape.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/printf'
+compiling rat.c
+compiling scan_args.c
+compiling printf.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/symbol'
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/json'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/st/numhash'
+compiling receiver.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/st/update'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/struct'
+compiling numhash.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/vm'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/thread_fd'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/tracepoint'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/st/foreach'
+compiling data.c
+compiling update.c
+compiling at_exit.c
+compiling gc_hook.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/bigdecimal'
+compiling foreach.c
+compiling bigdecimal.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/typeddata'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/continuation'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/time'
+compiling super.c
+compiling thread_fd.c
+compiling duplicate.c
+compiling typeddata.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/thread/instrumentation'
+compiling continuation.c
+compiling init.c
+compiling type.c
+compiling init.c
+compiling instrumentation.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest'
+compiling tracepoint.c
+compiling digest.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/cgi/escape'
+compiling missing.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/wait'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/fcntl'
+compiling escape.c
+compiling wait.c
+compiling fcntl.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/date'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/string'
+compiling date_core.c
+compiling capacity.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/etc'
+compiling leap_second.c
+compiling etc.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/monitor'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/fiddle'
+compiling monitor.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/io/nonblock'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/openssl'
+compiling closure.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/io/console'
+compiling nonblock.c
+compiling len.c
+compiling console.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/coverage'
+compiling coverage.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/io/wait'
+compiling wait.c
+compiling conversions.c
+compiling openssl_missing.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/pathname'
+compiling pathname.c
+compiling fiddle.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/psych'
+installing default monitor libraries
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/nkf'
+compiling psych.c
+compiling nkf.c
+compiling member.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/objspace'
+compiling object_tracing.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/rbconfig/sizeof'
+compiling date_parse.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/pty'
+compiling sizes.c
+compiling pty.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/ripper'
+compiling eventids1.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/json'
+compiling ossl.c
+linking shared-object -test-/dln/empty.so
+compiling date_strftime.c
+linking shared-object -test-/eval.so
+compiling new.c
+compiling coderange.c
+linking shared-object -test-/arith_seq/beg_len_step.so
+linking shared-object -test-/bug_reporter.so
+linking shared-object -test-/array/resize.so
+compiling objspace.c
+linking shared-object -test-/bug_3571.so
+linking shared-object -test-/bug_14834.so
+linking shared-object -test-/bug_5832.so
+linking shared-object -test-/load/resolve_symbol_resolver.so
+compiling objspace_dump.c
+installing default pathname libraries
+installing default pty libraries
+compiling eventids2.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/rubyvm'
+compiling ossl_asn1.c
+compiling cstr.c
+linking shared-object -test-/load/dot.dot.so
+linking shared-object -test-/load/stringify_symbols.so
+compiling function.c
+installing default coverage libraries
+linking shared-object -test-/notimplement.so
+compiling ripper.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/rubyvm'
+installing digest libraries
+compiling ossl_bio.c
+linking shared-object -test-/arith_seq/extract.so
+compiling psych_emitter.c
+compiling limits.c
+linking shared-object -test-/debug.so
+linking shared-object -test-/rb_call_super_kw.so
+compiling ossl_bn.c
+compiling ripper_init.c
+linking shared-object -test-/fatal/rb_fatal.so
+linking shared-object -test-/popen_deadlock/infinite_loop_dlsym.so
+compiling handle.c
+installing default bigdecimal libraries
+linking shared-object -test-/hash.so
+linking shared-object -test-/load/stringify_target.so
+compiling memory_view.c
+linking shared-object -test-/vm/at_exit.so
+linking shared-object -test-/array/to_ary_concat.so
+linking shared-object -test-/marshal/compat.so
+linking shared-object -test-/iter.so
+linking shared-object -test-/exception.so
+linking shared-object -test-/recursion.so
+linking shared-object -test-/st/update.so
+linking shared-object -test-/load/resolve_symbol_target.so
+installing default digest libraries
+linking shared-object -test-/econv.so
+linking shared-object -test-/path_to_class.so
+compiling ellipsize.c
+linking shared-object -test-/method.so
+compiling psych_parser.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/socket'
+linking shared-object -test-/class.so
+compiling init.c
+linking shared-object -test-/typeddata.so
+linking shared-object -test-/marshal/usr.so
+compiling enc_associate.c
+compiling date_strptime.c
+linking shared-object -test-/gvl/call_without_gvl.so
+compiling constants.c
+linking shared-object continuation.so
+linking shared-object -test-/float.so
+installing default objspace libraries
+compiling ossl_cipher.c
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/eval'
+compiling pinned.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/dln/empty'
+linking shared-object -test-/regexp.so
+linking shared-object -test-/marshal/internal_ivar.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/array/resize'
+compiling basicsocket.c
+compiling psych_to_ruby.c
+compiling ossl_config.c
+compiling socket.c
+compiling psych_yaml_tree.c
+linking shared-object -test-/funcall.so
+linking shared-object -test-/proc.so
+compiling ossl_digest.c
+compiling enc_dummy.c
+installing default console libraries
+compiling ossl_engine.c
+linking shared-object fcntl.so
+installing default date_core libraries
+linking shared-object -test-/iseq_load.so
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/stringio'
+compiling ossl_hmac.c
+linking shared-object -test-/thread_fd.so
+compiling stringio.c
+linking shared-object -test-/bignum.so
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/syslog'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/strscan'
+linking shared-object -test-/file.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/arith_seq/beg_len_step'
+linking shared-object -test-/random.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bug-14834'
+compiling strscan.c
+linking shared-object -test-/symbol.so
+compiling ipsocket.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/notimplement'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bug-3571'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bug_reporter'
+compiling syslog.c
+linking shared-object io/wait.so
+compiling enc_str_buf_cat.c
+compiling ossl_kdf.c
+compiling ossl_ns_spki.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/resolve_symbol_resolver'
+linking shared-object -test-/wait.so
+installing default nkf libraries
+linking shared-object -test-/struct.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bug-5832'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/stringify_symbols'
+compiling tcpsocket.c
+compiling fstring.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/rb_call_super_kw'
+linking shared-object -test-/enumerator_kw.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/dot.dot'
+compiling ossl_ocsp.c
+linking shared-object -test-/load/protect.so
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/debug-1.9.2/ext/debug'
+compiling pointer.c
+compiling tcpserver.c
+linking shared-object -test-/postponed_job.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/recursion'
+linking shared-object -test-/num2int.so
+linking shared-object erb/escape.so
+compiling debug.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/stringify_target'
+linking shared-object -test-/st/numhash.so
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/zlib'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/fatal'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/resolve_symbol_target'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/vm'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/arith_seq/extract'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/st/update'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/hash'
+compiling sockssocket.c
+compiling zlib.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/path_to_class'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/debug'
+linking shared-object -test-/st/foreach.so
+compiling init.c
+compiling iseq_collector.c
+installing default syslog libraries
+compiling ossl_pkcs12.c
+compiling udpsocket.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/rbs-3.4.0/ext/rbs_extension'
+compiling unixsocket.c
+compiling unixserver.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/racc-1.7.3/ext/racc/cparse'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/method'
+linking shared-object -test-/tracepoint.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/popen_deadlock'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/gvl/call_without_gvl'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/array/concat'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/json/generator'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/exception'
+compiling ossl_pkcs7.c
+compiling modify.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/continuation'
+compiling generator.c
+compiling option.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/typeddata'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/marshal/internal_ivar'
+compiling constants.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/marshal/usr'
+compiling cparse.c
+linking shared-object monitor.so
+compiling new.c
+compiling ossl_pkey.c
+linking shared-object io/nonblock.so
+compiling nofree.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/class'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/marshal/compat'
+installing default fiddle libraries
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/econv'
+compiling normalize.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/float'
+compiling lexer.c
+compiling ossl_pkey_dh.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/funcall'
+compiling qsort.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/json/parser'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/fcntl'
+compiling parser.c
+compiling lexstate.c
+linking shared-object -test-/thread/instrumentation.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/regexp'
+installing default ripper libraries
+compiling ancdata.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/proc'
+compiling rb_interned_str.c
+compiling raddrinfo.c
+compiling rb_str_dup.c
+compiling ossl_pkey_dsa.c
+compiling location.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/thread_fd'
+compiling ifaddr.c
+compiling set_len.c
+compiling ossl_pkey_ec.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/symbol'
+compiling ossl_pkey_rsa.c
+linking shared-object -test-/RUBY_ALIGNOF.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/iseq_load'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/io/wait'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/iter'
+compiling ossl_provider.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/load/protect'
+compiling ossl_rand.c
+compiling ossl_ssl.c
+linking shared-object -test-/printf.so
+compiling main.c
+compiling parser.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/erb/escape'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/wait'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/enumerator_kw'
+compiling parserstate.c
+compiling ossl_ssl_session.c
+compiling ossl_x509.c
+compiling ossl_ts.c
+compiling ruby_objs.c
+compiling ossl_x509attr.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/struct'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/postponed_job'
+compiling unescape.c
+compiling ossl_x509cert.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/random'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/file'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/st/numhash'
+compiling ossl_x509crl.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/st/foreach'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/bignum'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/num2int'
+compiling ossl_x509ext.c
+compiling ossl_x509name.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/io/nonblock'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/tracepoint'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/thread/instrumentation'
+compiling ossl_x509req.c
+compiling ossl_x509revoked.c
+compiling ossl_x509store.c
+linking shared-object cgi/escape.so
+linking shared-object -test-/memory_view.so
+linking shared-object digest.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/RUBY_ALIGNOF'
+linking shared-object -test-/cxxanyargs.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/monitor'
+linking shared-object pty.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/printf'
+linking shared-object rbconfig/sizeof.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/cgi/escape'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/memory_view'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/bubblebabble'
+compiling bubblebabble.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/sha1'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/sha2'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/md5'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/rmd160'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/pty'
+compiling sha1init.c
+compiling sha2init.c
+compiling md5init.c
+compiling sha1.c
+compiling rmd160init.c
+compiling sha2.c
+compiling md5.c
+compiling rmd160.c
+linking shared-object coverage.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/rbconfig/sizeof'
+linking shared-object etc.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/cxxanyargs'
+linking shared-object debug/debug.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/coverage'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/etc'
+linking shared-object -test-/string.so
+linking shared-object psych.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/debug-1.9.2/ext/debug'
+linking shared-object syslog.so
+linking shared-object -test-/rational.so
+linking shared-object -test-/integer.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/syslog'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/string'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/psych'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/rational'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/integer'
+linking shared-object io/console.so
+linking shared-object digest/bubblebabble.so
+linking shared-object -test-/time.so
+linking shared-object digest/md5.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/bubblebabble'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/io/console'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/time'
+linking shared-object digest/sha1.so
+linking shared-object racc/cparse.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/md5'
+linking shared-object fiddle.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/sha1'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/racc-1.7.3/ext/racc/cparse'
+linking shared-object objspace.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/fiddle'
+linking shared-object -test-/scan_args.so
+linking shared-object digest/rmd160.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/objspace'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/-test-/scan_args'
+linking shared-object digest/sha2.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/rmd160'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/sha2'
+linking shared-object json/ext/parser.so
+linking shared-object strscan.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/json/parser'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/strscan'
+linking shared-object rbs_extension.so
+linking shared-object pathname.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/pathname'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/rbs-3.4.0/ext/rbs_extension'
+linking shared-object stringio.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/stringio'
+linking shared-object socket.so
+linking shared-object json/ext/generator.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/json/generator'
+linking shared-object openssl.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/socket'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/openssl'
+linking shared-object zlib.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/zlib'
+linking shared-object nkf.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/nkf'
+linking shared-object bigdecimal.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/bigdecimal'
+linking shared-object date_core.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/date'
+linking shared-object ripper.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/ripper'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+linking ruby
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Nothing to be done for 'note'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+-> make install
+generating x86_64-linux-fake.rb
+x86_64-linux-fake.rb updated
+	BASERUBY = ./tool/missing-baseruby.bat
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdiv-by-zero -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wmisleading-indentation -Wundef   -fPIC 
+	XCFLAGS = -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fno-strict-overflow -fvisibility=hidden -fexcess-precision=standard -DRUBY_EXPORT -I. -I.ext/include/x86_64-linux -I./include -I. -I./prism -I./enc/unicode/15.0.0  
+	CPPFLAGS =   
+	DLDFLAGS = -Wl,--compress-debug-sections=zlib -Wl,-soname,libruby.so.3.3  -fstack-protector-strong  
+	SOLIBS = -lz -lrt -lrt -ldl -lcrypt -lm -lpthread 
+	LANG = 
+	LC_ALL = 
+	LC_CTYPE = 
+	MFLAGS = 
+	RUSTC = no
+	YJIT_RUSTC_ARGS = --crate-name=yjit --crate-type=staticlib --edition=2021 -g -C lto=thin -C opt-level=3 -C overflow-checks=on '--out-dir=/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/yjit/target/release/' ./yjit/src/lib.rs
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+generating enc.mk
+making srcs under enc
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Nothing to be done for 'srcs'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+generating transdb.h
+transdb.h unchanged
+generating makefiles ext/configure-ext.mk
+ext/configure-ext.mk updated
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+generating makefile exts.mk
+exts.mk unchanged
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/bigdecimal'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/bigdecimal'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/coverage'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/coverage'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/date'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/date'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/sha2'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/digest/sha2'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/fiddle'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/fiddle'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/io/console'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/io/console'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/json'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/json'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/monitor'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/monitor'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/nkf'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/nkf'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/objspace'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/objspace'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/openssl'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/openssl'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/pathname'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/pathname'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/psych'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/psych'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/pty'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/pty'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/ripper'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/ripper'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/rubyvm'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/rubyvm'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/socket'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/socket'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/syslog'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/ext/syslog'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/debug-1.9.2/ext/debug'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/debug-1.9.2/ext/debug'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/racc-1.7.3/ext/racc/cparse'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/racc-1.7.3/ext/racc/cparse'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/rbs-3.4.0/ext/rbs_extension'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6/.bundle/gems/rbs-3.4.0/ext/rbs_extension'
+make[2]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[2]: 'ruby' is up to date.
+make[2]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Nothing to be done for 'note'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+making enc
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Nothing to be done for 'enc'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+making trans
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Nothing to be done for './enc/trans'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+making encs
+make[1]: Entering directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+make[1]: Nothing to be done for 'encs'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132955.24573.MLyP8c/ruby-3.3.6'
+./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems -r./x86_64-linux-fake ./tool/rbinstall.rb --make="make" --dest-dir="" --extout=".ext" --ext-build-dir="./ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="man"  --gnumake --install=all --exclude=doc
+Installing to 
+installing binary commands:         /opt/rbenv/versions/3.3.6/bin
+installing base libraries:          /opt/rbenv/versions/3.3.6/lib
+installing arch files:              /opt/rbenv/versions/3.3.6/lib/ruby/3.3.0/x86_64-linux
+installing pkgconfig data:          /opt/rbenv/versions/3.3.6/lib/pkgconfig
+installing extension objects:       /opt/rbenv/versions/3.3.6/lib/ruby/3.3.0/x86_64-linux
+installing extension objects:       /opt/rbenv/versions/3.3.6/lib/ruby/site_ruby/3.3.0/x86_64-linux
+installing extension objects:       /opt/rbenv/versions/3.3.6/lib/ruby/vendor_ruby/3.3.0/x86_64-linux
+installing extension headers:       /opt/rbenv/versions/3.3.6/include/ruby-3.3.0/x86_64-linux
+installing extension scripts:       /opt/rbenv/versions/3.3.6/lib/ruby/3.3.0
+installing extension scripts:       /opt/rbenv/versions/3.3.6/lib/ruby/site_ruby/3.3.0
+installing extension scripts:       /opt/rbenv/versions/3.3.6/lib/ruby/vendor_ruby/3.3.0
+installing extension headers:       /opt/rbenv/versions/3.3.6/include/ruby-3.3.0/ruby
+installing command scripts:         /opt/rbenv/versions/3.3.6/bin
+installing library scripts:         /opt/rbenv/versions/3.3.6/lib/ruby/3.3.0
+installing common headers:          /opt/rbenv/versions/3.3.6/include/ruby-3.3.0
+installing manpages:                /opt/rbenv/versions/3.3.6/share/man/man1
+installing default gems from lib:   /opt/rbenv/versions/3.3.6/lib/ruby/gems/3.3.0
+                                    abbrev 0.1.2
+                                    base64 0.2.0
+                                    benchmark 0.3.0
+                                    bundler 2.5.22
+                                    cgi 0.4.1
+                                    csv 3.2.8
+                                    delegate 0.3.1
+                                    did_you_mean 1.6.3
+                                    drb 2.2.0
+                                    english 0.8.0
+                                    erb 4.0.3
+                                    error_highlight 0.6.0
+                                    fileutils 1.7.2
+                                    find 0.2.0
+                                    forwardable 1.3.3
+                                    getoptlong 0.2.1
+                                    ipaddr 1.2.6
+                                    irb 1.13.1
+                                    logger 1.6.0
+                                    mutex_m 0.2.0
+                                    net-http 0.4.1
+                                    net-protocol 0.2.2
+                                    observer 0.1.2
+                                    open-uri 0.4.1
+                                    open3 0.2.1
+                                    optparse 0.4.0
+                                    ostruct 0.6.0
+                                    pp 0.5.0
+                                    prettyprint 0.2.0
+                                    prism 0.19.0
+                                    pstore 0.1.3
+                                    rdoc 6.6.3.1
+                                    readline 0.0.4
+                                    reline 0.5.10
+                                    resolv 0.3.0
+                                    resolv-replace 0.1.1
+                                    rinda 0.2.0
+                                    ruby2_keywords 0.0.5
+                                    securerandom 0.3.1
+                                    set 1.1.0
+                                    shellwords 0.2.0
+                                    singleton 0.2.0
+                                    syntax_suggest 2.0.1
+                                    tempfile 0.2.1
+                                    time 0.3.0
+                                    timeout 0.4.1
+                                    tmpdir 0.2.0
+                                    tsort 0.2.0
+                                    un 0.3.0
+                                    uri 0.13.1
+                                    weakref 0.1.3
+                                    yaml 0.3.0
+installing default gems from ext:   /opt/rbenv/versions/3.3.6/lib/ruby/gems/3.3.0
+                                    bigdecimal 3.1.5
+                                    date 3.3.4
+                                    digest 3.1.1
+                                    etc 1.4.3
+                                    fcntl 1.1.0
+                                    fiddle 1.1.2
+                                    io-console 0.7.1
+                                    io-nonblock 0.3.0
+                                    io-wait 0.3.1
+                                    json 2.7.2
+                                    nkf 0.1.3
+                                    openssl 3.2.0
+                                    pathname 0.3.0
+                                    psych 5.1.2
+                                    stringio 3.1.1
+                                    strscan 3.0.9
+                                    syslog 0.1.2
+                                    zlib 3.1.1
+installing bundled gems:            /opt/rbenv/versions/3.3.6/lib/ruby/gems/3.3.0
+                                    minitest 5.20.0
+                                    power_assert 2.0.3
+                                    rake 13.1.0
+                                    test-unit 3.6.1
+                                    rexml 3.3.9
+                                    rss 0.3.1
+                                    net-ftp 0.3.4
+                                    net-imap 0.4.9.1
+                                    net-pop 0.1.2
+                                    net-smtp 0.4.0.1
+                                    matrix 0.4.2
+                                    prime 0.1.2
+                                    rbs 3.4.0
+                                    typeprof 0.21.9
+                                    debug 1.9.2
+                                    racc 1.7.3
+installing bundled gem cache:       /opt/rbenv/versions/3.3.6/lib/ruby/gems/3.3.0/cache
+==> Installed ruby-3.3.6 to /opt/rbenv/versions/3.3.6

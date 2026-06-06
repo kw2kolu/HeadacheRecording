@@ -1,0 +1,3178 @@
+cd /tmp/ruby-build.20260331132748.452.Hur4hW
+==> Downloading ruby-3.1.6.tar.gz...
+-> curl -q -fL -o ruby-3.1.6.tar.gz https://cache.ruby-lang.org/pub/ruby/3.1/ruby-3.1.6.tar.gz
+-> tar xzf ruby-3.1.6.tar.gz
+cd /tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6
+==> Installing ruby-3.1.6...
+-> ./configure --prefix=/opt/rbenv/versions/3.1.6 --enable-shared --with-ext=openssl,psych,+ --disable-install-doc
+checking for ruby... false
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking for ld... ld
+checking for gcc-ar... gcc-ar
+checking for g++... g++
+checking for gcc-nm... gcc-nm
+checking for gcc-ranlib... gcc-ranlib
+checking for gcc... (cached) gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking how to run the C preprocessor... gcc -E
+checking for ranlib... (cached) gcc-ranlib
+checking for gas... no
+checking for as... as
+checking for gobjcopy... no
+checking for objcopy... objcopy
+checking for gobjdump... no
+checking for objdump... objdump
+checking for gstrip... no
+checking for strip... strip
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for vfork.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking whether the linker is GNU ld... yes
+checking whether gcc -E accepts -o... yes
+checking for gcc... /usr/bin/gcc
+checking for gcc-ar flags... rcD
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for dtrace... no
+checking for dot... no
+checking for doxygen... no
+checking for pkg-config... pkg-config
+checking whether it is Android... no
+checking for cd using physical directory... cd -P
+checking whether CFLAGS is valid... yes
+checking whether LDFLAGS is valid... yes
+checking whether ELF binaries are produced... yes
+checking whether -Wl,-rpath,. is accepted as LDFLAGS... yes
+checking whether -fdeclspec is accepted as LDFLAGS... no
+checking whether -fdeclspec is accepted as CXXFLAGS... no
+checking whether -Wdeprecated-declarations is accepted as CFLAGS... yes
+checking whether -Wdivision-by-zero is accepted as CFLAGS... no
+checking whether -Wduplicated-cond is accepted as CFLAGS... yes
+checking whether -Wimplicit-function-declaration is accepted as CFLAGS... yes
+checking whether -Wimplicit-int is accepted as CFLAGS... yes
+checking whether -Wmisleading-indentation is accepted as CFLAGS... yes
+checking whether -Wpointer-arith is accepted as CFLAGS... yes
+checking whether -Wshorten-64-to-32 is accepted as CFLAGS... no
+checking whether -Wwrite-strings is accepted as CFLAGS... yes
+checking whether -Wold-style-definition is accepted as CFLAGS... yes
+checking whether -Wimplicit-fallthrough=0 is accepted as CFLAGS... yes
+checking whether -Wmissing-noreturn is accepted as CFLAGS... yes
+checking whether -Wno-cast-function-type is accepted as CFLAGS... yes
+checking whether -Wno-constant-logical-operand is accepted as CFLAGS... yes
+checking whether -Wno-long-long is accepted as CFLAGS... yes
+checking whether -Wno-missing-field-initializers is accepted as CFLAGS... yes
+checking whether -Wno-overlength-strings is accepted as CFLAGS... yes
+checking whether -Wno-packed-bitfield-compat is accepted as CFLAGS... yes
+checking whether -Wno-parentheses-equality is accepted as CFLAGS... yes
+checking whether -Wno-self-assign is accepted as CFLAGS... yes
+checking whether -Wno-tautological-compare is accepted as CFLAGS... yes
+checking whether -Wno-unused-parameter is accepted as CFLAGS... yes
+checking whether -Wno-unused-value is accepted as CFLAGS... yes
+checking whether -Wsuggest-attribute=format is accepted as CFLAGS... yes
+checking whether -Wsuggest-attribute=noreturn is accepted as CFLAGS... yes
+checking whether -Wunused-variable is accepted as CFLAGS... yes
+checking whether -diag-disable=175,188,1684,2259,2312 is accepted as CFLAGS... no
+checking whether -Wextra-tokens is accepted as CFLAGS... no
+checking whether -Wundef is accepted as CFLAGS... yes
+checking whether -Wall -Wextra is accepted as CFLAGS... yes
+checking whether -Qunused-arguments is accepted as CFLAGS... no
+checking whether -O3 -D_FORTIFY_SOURCE=2 is accepted as CFLAGS... yes
+checking whether -fstack-protector-strong is accepted as CFLAGS... yes
+checking whether -fstack-protector-strong is accepted as LDFLAGS... yes
+checking whether -Wl,--compress-debug-sections=zlib is accepted as LDFLAGS... yes
+checking whether -std=gnu99 is accepted as CFLAGS... yes
+checking whether -fno-strict-overflow is accepted as CFLAGS... yes
+checking whether -ggdb3 is accepted as CFLAGS... yes
+checking whether -fvisibility=hidden is accepted as CFLAGS... yes
+checking whether -fno-fast-math is accepted as CFLAGS... yes
+checking whether -fexcess-precision=standard is accepted as CFLAGS... yes
+checking whether -fp-model precise is accepted as CFLAGS... no
+checking whether compiler has statement and declarations in expressions... yes
+checking whether CXXFLAGS is valid... yes
+checking for crypt in -lcrypt... yes
+checking for dlopen in -ldl... yes
+checking for shl_load in -ldld... no
+checking for shutdown in -lsocket... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for _Bool... yes
+checking for stdbool.h that conforms to C99... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for atomic.h... no
+checking for copyfile.h... no
+checking for direct.h... no
+checking for grp.h... yes
+checking for fcntl.h... yes
+checking for float.h... yes
+checking for ieeefp.h... no
+checking for intrinsics.h... no
+checking for langinfo.h... yes
+checking for limits.h... yes
+checking for locale.h... yes
+checking for malloc.h... yes
+checking for malloc/malloc.h... no
+checking for malloc_np.h... no
+checking for net/socket.h... no
+checking for process.h... no
+checking for pwd.h... yes
+checking for sanitizer/asan_interface.h... yes
+checking for sanitizer/msan_interface.h... no
+checking for setjmpex.h... no
+checking for stdalign.h... yes
+checking for sys/attr.h... no
+checking for sys/eventfd.h... yes
+checking for sys/fcntl.h... yes
+checking for sys/file.h... yes
+checking for sys/id.h... no
+checking for sys/ioctl.h... yes
+checking for sys/mkdev.h... no
+checking for sys/param.h... yes
+checking for sys/prctl.h... yes
+checking for sys/random.h... yes
+checking for sys/resource.h... yes
+checking for sys/select.h... yes
+checking for sys/sendfile.h... yes
+checking for sys/socket.h... yes
+checking for sys/syscall.h... yes
+checking for sys/sysmacros.h... yes
+checking for sys/time.h... yes
+checking for sys/times.h... yes
+checking for sys/uio.h... yes
+checking for sys/utime.h... no
+checking for syscall.h... yes
+checking for time.h... yes
+checking for ucontext.h... yes
+checking for utime.h... yes
+checking for x86intrin.h... yes
+checking for x86intrin.h when defined(__x86_64__)... yes
+checking for gmp.h... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether byte ordering is bigendian... no
+checking for an ANSI C-conforming const... yes
+checking whether char is unsigned... no
+checking for inline... inline
+checking for working volatile... yes
+checking for typeof syntax and keyword spelling... typeof
+checking for C/C++ restrict keyword... __restrict__
+checking for long long... yes
+checking for off_t... yes
+checking char bit... 8
+checking size of int... 4
+checking size of short... 2
+checking size of long... 8
+checking size of long long... 8
+checking size of __int64... 0
+checking size of __int128... 16
+checking size of off_t... 8
+checking size of void*... 8
+checking size of float... 4
+checking size of double... 8
+checking size of time_t... 8
+checking size of clock_t... 8
+checking packed struct attribute... x __attribute__((packed))
+checking whether -Wno-address-of-packed-member is accepted as CFLAGS... yes
+checking for printf prefix for long long... ll
+checking for pid_t... yes
+checking for convertible type of pid_t... INT
+checking for uid_t... yes
+checking for convertible type of uid_t... UINT
+checking for gid_t... yes
+checking for convertible type of gid_t... UINT
+checking for time_t... yes
+checking for convertible type of time_t... LONG
+checking for dev_t... yes
+checking for convertible type of dev_t... ULONG
+checking for mode_t... yes
+checking for convertible type of mode_t... UINT
+checking for rlim_t... yes
+checking for convertible type of rlim_t... ULONG
+checking for off_t... (cached) yes
+checking for convertible type of off_t... LONG
+checking for clockid_t... yes
+checking for convertible type of clockid_t... INT
+checking for variable length macro... yes
+checking if _Alignof() works... yes
+checking for CONSTFUNC function attribute... __attribute__ ((__const__)) x
+checking for PUREFUNC function attribute... __attribute__ ((__pure__)) x
+checking for NORETURN function attribute... __attribute__ ((__noreturn__)) x
+checking for DEPRECATED function attribute... __attribute__ ((__deprecated__)) x
+checking for DEPRECATED_BY function attribute... __attribute__ ((__deprecated__("by "#n))) x
+checking for NOINLINE function attribute... __attribute__ ((__noinline__)) x
+checking for ALWAYS_INLINE function attribute... __attribute__ ((__always_inline__)) x
+checking for NO_SANITIZE function attribute... __attribute__ ((__no_sanitize__(san))) x
+checking for NO_SANITIZE_ADDRESS function attribute... __attribute__ ((__no_sanitize_address__)) x
+checking for NO_ADDRESS_SAFETY_ANALYSIS function attribute... __attribute__ ((__no_address_safety_analysis__)) x
+checking for WARN_UNUSED_RESULT function attribute... __attribute__ ((__warn_unused_result__)) x
+checking for MAYBE_UNUSED function attribute... __attribute__ ((__unused__)) x
+checking for ERRORFUNC function attribute... __attribute__ ((__error__ mesg)) x
+checking for WARNINGFUNC function attribute... __attribute__ ((__warning__ mesg)) x
+checking for WEAK function attribute... __attribute__ ((__weak__)) x
+checking for __attribute__((__depreacted__(msg))) in C++... yes
+checking for std::nullptr_t... yes
+checking for FUNC_STDCALL function attribute... x
+checking for FUNC_CDECL function attribute... x
+checking for FUNC_FASTCALL function attribute... x
+checking for FUNC_UNOPTIMIZED function attribute... __attribute__ ((__optimize__("O0"))) x
+checking for FUNC_MINIMIZED function attribute... __attribute__ ((__optimize__("-Os","-fomit-frame-pointer"))) x
+checking for function alias... alias
+checking for __atomic builtins... yes
+checking for __sync builtins... yes
+checking for __builtin_unreachable... yes
+checking for exported function attribute... __attribute__ ((__visibility__("default")))
+checking for RUBY_FUNC_NONNULL function attribute... __attribute__ ((__nonnull__(n))) x
+checking for function name string predefined identifier... __func__
+checking if enum over int is allowed... yes
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether sys_nerr is declared... no
+checking whether getenv is declared... yes
+checking for size_t... yes
+checking size of size_t... 8
+checking size of ptrdiff_t... 8
+checking size of dev_t... 8
+checking for printf prefix for size_t... z
+checking for printf prefix for ptrdiff_t... t
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_blocks... yes
+checking for struct stat.st_rdev... yes
+checking size of struct stat.st_size... SIZEOF_OFF_T
+checking size of struct stat.st_blocks... SIZEOF_OFF_T
+checking size of struct stat.st_ino... SIZEOF_LONG
+checking size of struct stat.st_dev... SIZEOF_DEV_T
+checking size of struct stat.st_rdev... SIZEOF_DEV_T
+checking for struct stat.st_atim... yes
+checking for struct stat.st_atimespec... no
+checking for struct stat.st_atimensec... no
+checking for struct stat.st_mtim... yes
+checking for struct stat.st_mtimespec... no
+checking for struct stat.st_mtimensec... no
+checking for struct stat.st_ctim... yes
+checking for struct stat.st_ctimespec... no
+checking for struct stat.st_ctimensec... no
+checking for struct stat.st_birthtimespec... no
+checking for struct statx.stx_btime... yes
+checking for struct timeval... yes
+checking size of struct timeval.tv_sec... SIZEOF_TIME_T
+checking for struct timespec... yes
+checking for struct timezone... yes
+checking for fd_mask... yes
+checking for int8_t... yes
+checking size of int8_t... 1
+checking for uint8_t... yes
+checking size of uint8_t... 1
+checking for int16_t... yes
+checking size of int16_t... 2
+checking for uint16_t... yes
+checking size of uint16_t... 2
+checking for int32_t... yes
+checking size of int32_t... 4
+checking for uint32_t... yes
+checking size of uint32_t... 4
+checking for int64_t... yes
+checking size of int64_t... 8
+checking for uint64_t... yes
+checking size of uint64_t... 8
+checking for int128_t... __int128
+checking for uint128_t... unsigned __int128
+checking for intptr_t... yes
+checking size of intptr_t... 8
+checking for uintptr_t... yes
+checking size of uintptr_t... 8
+checking for printf prefix for intptr_t... NONE
+checking for ssize_t... yes
+checking size of ssize_t... 8
+checking for printf prefix for int64_t... NONE
+checking for stack end address... __libc_stack_end
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for uid_t in sys/types.h... (cached) yes
+checking type of array argument to getgroups... gid_t
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for dynamic size alloca... ok
+checking for working memcmp... yes
+checking for dup... yes
+checking for dup2... yes
+checking for acosh... yes
+checking for cbrt... yes
+checking for crypt... yes
+checking for erf... yes
+checking for explicit_bzero... yes
+checking for ffs... yes
+checking for flock... yes
+checking for hypot... yes
+checking for lgamma_r... yes
+checking for memmove... yes
+checking for nan... yes
+checking for nextafter... yes
+checking for setproctitle... no
+checking for strchr... yes
+checking for strerror... yes
+checking for strlcat... yes
+checking for strlcpy... yes
+checking for strstr... yes
+checking for tgamma... yes
+checking for sys/pstat.h... no
+checking for pid_t... (cached) yes
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for __syscall... no
+checking for _longjmp... yes
+checking for arc4random_buf... yes
+checking for atan2l... yes
+checking for atan2f... yes
+checking for chroot... yes
+checking for chsize... no
+checking for clock_gettime... yes
+checking for copy_file_range... yes
+checking for cosh... yes
+checking for crypt_r... yes
+checking for daemon... (cached) no
+checking for dirfd... yes
+checking for dl_iterate_phdr... yes
+checking for dlopen... yes
+checking for dladdr... yes
+checking for dup3... yes
+checking for eaccess... yes
+checking for endgrent... yes
+checking for eventfd... yes
+checking for explicit_memset... no
+checking for fcopyfile... no
+checking for fchmod... yes
+checking for fchown... yes
+checking for fcntl... yes
+checking for fdatasync... yes
+checking for fdopendir... yes
+checking for fgetattrlist... no
+checking for fmod... yes
+checking for fstatat... yes
+checking for fsync... yes
+checking for ftruncate... yes
+checking for ftruncate64... yes
+checking for getattrlist... no
+checking for getcwd... yes
+checking for getentropy... yes
+checking for getgidx... no
+checking for getgrnam... yes
+checking for getgrnam_r... yes
+checking for getgroups... yes
+checking for getlogin... yes
+checking for getlogin_r... yes
+checking for getpgid... yes
+checking for getpgrp... yes
+checking for getpriority... yes
+checking for getpwnam... yes
+checking for getpwnam_r... yes
+checking for getpwuid... yes
+checking for getpwuid_r... yes
+checking for getrandom... yes
+checking for getresgid... yes
+checking for getresuid... yes
+checking for getrlimit... yes
+checking for getsid... yes
+checking for gettimeofday... yes
+checking for getuidx... no
+checking for gmtime_r... yes
+checking for grantpt... yes
+checking for initgroups... yes
+checking for ioctl... yes
+checking for isfinite... no
+checking for issetugid... no
+checking for killpg... yes
+checking for lchmod... yes
+checking for lchown... yes
+checking for link... yes
+checking for llabs... yes
+checking for lockf... yes
+checking for log2... yes
+checking for lstat... yes
+checking for lutimes... yes
+checking for malloc_usable_size... yes
+checking for malloc_size... no
+checking for mblen... yes
+checking for memalign... yes
+checking for memset_s... no
+checking for writev... yes
+checking for memrchr... yes
+checking for memmem... yes
+checking for mkfifo... yes
+checking for mknod... yes
+checking for mktime... yes
+checking for mmap... yes
+checking for openat... yes
+checking for pipe2... yes
+checking for poll... yes
+checking for posix_fadvise... yes
+checking for posix_memalign... yes
+checking for ppoll... yes
+checking for pread... yes
+checking for pwrite... yes
+checking for qsort_r... yes
+checking for qsort_s... no
+checking for readlink... yes
+checking for realpath... yes
+checking for round... yes
+checking for sched_getaffinity... yes
+checking for seekdir... yes
+checking for select_large_fdset... no
+checking for sendfile... yes
+checking for setegid... yes
+checking for setenv... yes
+checking for seteuid... yes
+checking for setgid... yes
+checking for setgroups... yes
+checking for setpgid... yes
+checking for setpgrp... yes
+checking for setregid... yes
+checking for setresgid... yes
+checking for setresuid... yes
+checking for setreuid... yes
+checking for setrgid... no
+checking for setrlimit... yes
+checking for setruid... no
+checking for setsid... yes
+checking for setuid... yes
+checking for shutdown... yes
+checking for sigaction... yes
+checking for sigaltstack... yes
+checking for sigprocmask... yes
+checking for sinh... yes
+checking for spawnv... no
+checking for symlink... yes
+checking for syscall... yes
+checking for sysconf... yes
+checking for tanh... yes
+checking for telldir... yes
+checking for timegm... yes
+checking for times... yes
+checking for truncate... yes
+checking for truncate64... yes
+checking for unsetenv... yes
+checking for utimensat... yes
+checking for utimes... yes
+checking for wait4... yes
+checking for waitpid... yes
+checking for __cospi... no
+checking for __sinpi... no
+checking for statx... yes
+checking if getcwd allocates buffer if NULL is given... yes
+checking for crypt.h... yes
+checking for struct crypt_data.initialized... yes
+checking for __builtin_alloca_with_align... yes
+checking for __builtin_assume_aligned... yes
+checking for __builtin_bswap16... yes
+checking for __builtin_bswap32... yes
+checking for __builtin_bswap64... yes
+checking for __builtin_popcount... yes
+checking for __builtin_popcountll... yes
+checking for __builtin_clz... yes
+checking for __builtin_clzl... yes
+checking for __builtin_clzll... yes
+checking for __builtin_ctz... yes
+checking for __builtin_ctzll... yes
+checking for __builtin_add_overflow... yes
+checking for __builtin_sub_overflow... yes
+checking for __builtin_mul_overflow... yes
+checking for __builtin_mul_overflow_p... yes
+checking for __builtin_constant_p... yes
+checking for __builtin_choose_expr... yes
+checking for __builtin_choose_expr_constant_p... yes
+checking for __builtin_types_compatible_p... yes
+checking for __builtin_trap... yes
+checking for __builtin_expect... yes
+checking whether qsort_r is GNU version... yes
+checking whether qsort_r is BSD version... no
+checking whether atan2 handles Inf as C99... yes
+checking for clock_getres... yes
+checking for timer_create in -lrt... yes
+checking for timer_settime in -lrt... yes
+checking for unsetenv returns a value... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for struct tm.tm_gmtoff... yes
+checking for external int daylight... yes
+checking for negative time_t for gmtime(3)... yes
+checking for localtime(3) overflow correctly... yes
+checking for sig_t... yes
+checking whether right shift preserve sign bit... yes
+checking whether _SC_CLK_TCK is supported... yes
+checking stack growing direction on x86_64... -1
+checking native coroutine implementation for x86_64-linux... amd64
+checking for pthread_create in -lthr... no
+checking for pthread_create in -lpthread... yes
+checking for pthread_np.h... no
+checking whether pthread_t is scalar type... yes
+checking for sched_yield... yes
+checking for pthread_attr_setinheritsched... yes
+checking for pthread_attr_get_np... no
+checking for pthread_attr_getstack... yes
+checking for pthread_attr_getguardsize... yes
+checking for pthread_get_stackaddr_np... no
+checking for pthread_get_stacksize_np... no
+checking for thr_stksegment... no
+checking for pthread_stackseg_np... no
+checking for pthread_getthrds_np... no
+checking for pthread_condattr_setclock... yes
+checking for pthread_setname_np... yes
+checking for pthread_set_name_np... no
+checking for pthread_sigmask... yes
+checking for pthread_getattr_np... yes
+checking arguments of pthread_setname_np... (pthread_self(), name)
+checking if mcontext_t is a pointer... no
+checking for getcontext... yes
+checking for setcontext... yes
+checking if fork works with pthread... yes
+checking for sys/user.h... yes
+checking whether PAGE_SIZE is compile-time const... yes
+checking ioctl request type... unsigned long
+checking for elf.h... yes
+checking for elf_abi.h... no
+checking for uncompress in -lz... yes
+checking for mach-o/loader.h... no
+checking whether OS depend dynamic link works... yes
+checking for backtrace... yes
+checking for broken backtrace... no
+checking for valgrind/memcheck.h... yes
+checking for strip flags... -S -x
+checking whether -Wl,--no-as-needed is accepted as LDFLAGS... yes
+checking whether -Wl,--no-undefined is accepted as LDFLAGS... yes
+checking whether wrapper for LD_LIBRARY_PATH is needed... no
+checking whether dtrace USDT is available... no
+checking for __builtin_setjmp... yes with cast ()
+checking for _setjmpex as a macro or function... no
+checking for _setjmp as a macro or function... yes
+checking for sigsetjmp as a macro or function... no
+checking for setjmp type... __builtin_setjmp
+checking for prefix of external symbols... NONE
+checking for pthread.h... yes
+checking if make is GNU make... yes
+.ext/include/x86_64-linux/ruby/config.h updated
+configure: ruby library version = 3.1.0
+configure: creating ./config.status
+config.status: creating GNUmakefile
+config.status: creating Makefile
+---
+Configuration summary for ruby version 3.1.6
+
+   * Installation prefix: /opt/rbenv/versions/3.1.6
+   * exec prefix:         ${prefix}
+   * arch:                x86_64-linux
+   * site arch:           ${arch}
+   * RUBY_BASE_NAME:      ruby
+   * enable shared:       yes
+   * ruby lib prefix:     ${libdir}/${RUBY_BASE_NAME}
+   * site libraries path: ${rubylibprefix}/${sitearch}
+   * vendor path:         ${rubylibprefix}/vendor_ruby
+   * target OS:           linux
+   * compiler:            gcc
+   * with pthread:        yes
+   * with coroutine:      amd64
+   * enable shared libs:  yes
+   * dynamic library ext: so
+   * CFLAGS:              ${optflags} ${debugflags} ${warnflags}
+   * LDFLAGS:             -L. -fstack-protector-strong -rdynamic \
+                          -Wl,-export-dynamic -Wl,--no-as-needed
+   * DLDFLAGS:            -Wl,--compress-debug-sections=zlib
+   * optflags:            -O3 -fno-fast-math
+   * debugflags:          -ggdb3
+   * warnflags:           -Wall -Wextra -Wdeprecated-declarations \
+                          -Wduplicated-cond -Wimplicit-function-declaration \
+                          -Wimplicit-int -Wmisleading-indentation \
+                          -Wpointer-arith -Wwrite-strings \
+                          -Wold-style-definition -Wimplicit-fallthrough=0 \
+                          -Wmissing-noreturn -Wno-cast-function-type \
+                          -Wno-constant-logical-operand -Wno-long-long \
+                          -Wno-missing-field-initializers \
+                          -Wno-overlength-strings \
+                          -Wno-packed-bitfield-compat \
+                          -Wno-parentheses-equality -Wno-self-assign \
+                          -Wno-tautological-compare -Wno-unused-parameter \
+                          -Wno-unused-value -Wsuggest-attribute=format \
+                          -Wsuggest-attribute=noreturn -Wunused-variable \
+                          -Wundef
+   * strip command:       strip -S -x
+   * install doc:         no
+   * JIT support:         yes
+   * man page type:       man
+
+---
+-> make -j 128
+	BASERUBY = echo executable host ruby is required.  use --with-baseruby option.; false
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef -std=gnu99  -fPIC 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fno-strict-overflow -fvisibility=hidden -fexcess-precision=standard -DRUBY_EXPORT -I. -I.ext/include/x86_64-linux -I./include -I. -I./enc/unicode/13.0.0 
+	CPPFLAGS =   
+	DLDFLAGS = -Wl,--compress-debug-sections=zlib -Wl,-soname,libruby.so.3.1  -fstack-protector-strong  
+	SOLIBS = -lz -lpthread -lrt -lrt -ldl -lcrypt -lm 
+	LANG = 
+	LC_ALL = 
+	LC_CTYPE = 
+	MFLAGS = -j128 --jobserver-auth=6,7
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+compiling ./main.c
+compiling dmydln.c
+compiling miniinit.c
+compiling dmyext.c
+making dummy probes.h
+compiling ast.c
+compiling bignum.c
+compiling class.c
+compiling compar.c
+compiling compile.c
+compiling complex.c
+compiling cont.c
+compiling debug.c
+compiling debug_counter.c
+compiling dir.c
+compiling dln_find.c
+compiling encoding.c
+compiling enum.c
+compiling enumerator.c
+compiling error.c
+compiling eval.c
+compiling file.c
+compiling gc.c
+compiling hash.c
+compiling inits.c
+compiling io.c
+compiling io_buffer.c
+compiling iseq.c
+compiling load.c
+compiling marshal.c
+compiling math.c
+compiling memory_view.c
+making mjit_config.h
+compiling mjit_compile.c
+compiling node.c
+compiling numeric.c
+compiling object.c
+compiling pack.c
+compiling parse.c
+compiling proc.c
+compiling process.c
+compiling ractor.c
+compiling random.c
+compiling range.c
+compiling rational.c
+compiling re.c
+compiling regcomp.c
+compiling regenc.c
+compiling regerror.c
+compiling regexec.c
+compiling regparse.c
+compiling regsyntax.c
+compiling ruby.c
+compiling scheduler.c
+compiling signal.c
+compiling sprintf.c
+compiling st.c
+compiling strftime.c
+compiling string.c
+compiling struct.c
+compiling symbol.c
+compiling thread.c
+compiling time.c
+compiling transcode.c
+compiling transient_heap.c
+compiling util.c
+compiling variable.c
+compiling vm.c
+compiling vm_backtrace.c
+compiling vm_dump.c
+compiling vm_sync.c
+compiling vm_trace.c
+compiling yjit.c
+compiling ./missing/setproctitle.c
+compiling addr2line.c
+compiling dmyenc.c
+compiling dln.c
+compiling localeinit.c
+compiling array.c
+compiling mjit.c
+assembling coroutine/amd64/Context.S
+compiling enc/ascii.c
+compiling enc/us_ascii.c
+compiling enc/unicode.c
+./revision.h unchanged
+compiling enc/utf_8.c
+compiling enc/trans/newline.c
+compiling version.c
+In file included from class.c:27:
+In function 'RBASIC_SET_CLASS_RAW',
+    inlined from 'RBASIC_SET_CLASS' at internal/object.h:64:5,
+    inlined from 'make_metaclass' at class.c:690:2:
+internal/object.h:51:19: warning: array subscript 1 is outside array bounds of 'struct RClass[0]' [-Warray-bounds=]
+   51 |     *(VALUE *)ptr = klass;
+      |     ~~~~~~~~~~~~~~^~~~~~~
+In function 'make_metaclass':
+cc1: note: source object is likely at address zero
+cont.c: In function 'cont_restore_0.isra':
+cont.c:1456:28: warning: '*sp' may be used uninitialized [-Wmaybe-uninitialized]
+ 1456 |                 space[0] = *sp;
+      |                            ^~~
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+gc.c: In function 'objspace_xfree':
+gc.c:11394:33: warning: pointer 'ptr' used after 'free' [-Wuse-after-free]
+11394 |          malloc_increase_done = objspace_malloc_increase_body(__VA_ARGS__))
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gc.c:11707:5: note: in expansion of macro 'objspace_malloc_increase'
+11707 |     objspace_malloc_increase(objspace, ptr, 0, old_size, MEMOP_TYPE_FREE) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+gc.c:11708:9: note: call to 'free' here
+11708 |         free(ptr);
+      |         ^~~~~~~~~
+In file included from ./include/ruby/internal/core/rarray.h:32,
+                 from ./include/ruby/internal/core.h:23,
+                 from ./include/ruby/ruby.h:28,
+                 from eval_intern.h:4,
+                 from iseq.c:21:
+In function 'rb_obj_write',
+    inlined from 'iseqw_new.part.0' at iseq.c:1270:9:
+./include/ruby/internal/rgengc.h:437:11: warning: array subscript 1 is outside array bounds of 'const rb_iseq_t[0]' {aka 'const struct rb_iseq_struct[]'} [-Warray-bounds=]
+  437 |     *slot = b;
+      |     ~~~~~~^~~
+In function 'iseqw_new.part.0':
+cc1: note: source object is likely at address zero
+In file included from vm.c:382:
+vm_method.c: In function 'cache_callable_method_entry':
+vm_method.c:1281:33: warning: variable 'ccs' set but not used [-Wunused-but-set-variable]
+ 1281 |     struct rb_class_cc_entries *ccs;
+      |                                 ^~~
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+In function 'rb_obj_write',
+    inlined from 'iseqw_new' at iseq.c:1270:9,
+    inlined from 'iseqw_new' at iseq.c:1257:1,
+    inlined from 'rb_iseqw_new' at iseq.c:1280:12:
+./include/ruby/internal/rgengc.h:437:11: warning: array subscript 1 is outside array bounds of 'const rb_iseq_t[0]' {aka 'const struct rb_iseq_struct[]'} [-Warray-bounds=]
+  437 |     *slot = b;
+      |     ~~~~~~^~~
+In function 'rb_iseqw_new':
+cc1: note: source object is likely at address zero
+In function 'add_adjust_info',
+    inlined from 'iseq_set_sequence' at compile.c:2507:8,
+    inlined from 'iseq_setup' at compile.c:1516:10:
+compile.c:2261:39: warning: array subscript 2147483647 is outside array bounds of 'struct iseq_insn_info_entry[2147483647]' [-Warray-bounds=]
+ 2261 |         insns_info[insns_info_index-1].line_no != adjust->line_no) {
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+In file included from ./include/ruby/internal/assume.h:29,
+                 from ./include/ruby/backward/2/assume.h:24,
+                 from ./include/ruby/defines.h:72,
+                 from ./include/ruby/ruby.h:25,
+                 from ./include/ruby/encoding.h:19,
+                 from encindex.h:14,
+                 from compile.c:19:
+In function 'iseq_set_sequence',
+    inlined from 'iseq_setup' at compile.c:1516:10:
+./include/ruby/internal/memory.h:193:49: note: at offset 25769803764 into object of size [0, 25769803764] allocated by 'ruby_xmalloc2'
+  193 | #define RB_ALLOC_N(type,n)  RBIMPL_CAST((type *)ruby_xmalloc2((n), sizeof(type)))
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./include/ruby/internal/cast.h:31:29: note: in definition of macro 'RBIMPL_CAST'
+   31 | # define RBIMPL_CAST(expr) (expr)
+      |                             ^~~~
+./include/ruby/internal/memory.h:393:20: note: in expansion of macro 'RB_ALLOC_N'
+  393 | #define ALLOC_N    RB_ALLOC_N    /**< @old{RB_ALLOC_N} */
+      |                    ^~~~~~~~~~
+compile.c:2360:18: note: in expansion of macro 'ALLOC_N'
+ 2360 |     insns_info = ALLOC_N(struct iseq_insn_info_entry, insn_num);
+      |                  ^~~~~~~
+string.c: In function 'str_make_independent_expand':
+string.c:129:16: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+  129 |     RBASIC(str)->flags &= ~RSTRING_EMBED_LEN_MASK;\
+      |                ^~
+string.c:117:9: note: in expansion of macro 'STR_SET_EMBED_LEN'
+  117 |         STR_SET_EMBED_LEN((str), 0);\
+      |         ^~~~~~~~~~~~~~~~~
+string.c:2450:5: note: in expansion of macro 'STR_SET_NOEMBED'
+ 2450 |     STR_SET_NOEMBED(str);
+      |     ^~~~~~~~~~~~~~~
+cc1: note: source object is likely at address zero
+string.c:129:16: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+  129 |     RBASIC(str)->flags &= ~RSTRING_EMBED_LEN_MASK;\
+      |                ^~
+string.c:117:9: note: in expansion of macro 'STR_SET_EMBED_LEN'
+  117 |         STR_SET_EMBED_LEN((str), 0);\
+      |         ^~~~~~~~~~~~~~~~~
+string.c:2450:5: note: in expansion of macro 'STR_SET_NOEMBED'
+ 2450 |     STR_SET_NOEMBED(str);
+      |     ^~~~~~~~~~~~~~~
+cc1: note: source object is likely at address zero
+In file included from ./include/ruby/internal/core/rarray.h:32,
+                 from ./include/ruby/internal/core.h:23,
+                 from ./include/ruby/ruby.h:28,
+                 from debug_counter.h:397,
+                 from array.c:14:
+In function 'rb_obj_write',
+    inlined from 'ary_make_shared' at array.c:949:9:
+./include/ruby/internal/rgengc.h:437:11: warning: array subscript 3 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+  437 |     *slot = b;
+      |     ~~~~~~^~~
+In function 'ary_make_shared':
+cc1: note: source object is likely at address zero
+In function 'rb_obj_write',
+    inlined from 'ary_make_shared' at array.c:949:9:
+./include/ruby/internal/rgengc.h:437:11: warning: array subscript 3 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+In function 'ary_make_shared':
+cc1: note: source object is likely at address zero
+array.c:168:16: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+  168 |     RARRAY(ary)->as.heap.aux.capa = (value); \
+      |                ^~
+array.c:946:9: note: in expansion of macro 'ARY_SET_SHARED_ROOT_REFCNT'
+  946 |         ARY_SET_SHARED_ROOT_REFCNT(vshared, 1);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: note: source object is likely at address zero
+In function 'rb_obj_write',
+    inlined from 'ary_make_shared' at array.c:949:9:
+./include/ruby/internal/rgengc.h:437:11: warning: array subscript 3 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+  437 |     *slot = b;
+      |     ~~~~~~^~~
+In function 'ary_make_shared':
+cc1: note: source object is likely at address zero
+In function 'rb_obj_write',
+    inlined from 'ary_make_shared' at array.c:949:9:
+./include/ruby/internal/rgengc.h:437:11: warning: array subscript 3 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+In function 'ary_make_shared':
+cc1: note: source object is likely at address zero
+string.c: In function 'str_shared_replace':
+string.c:1644:59: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+ 1644 |             RSTRING(str)->as.heap.aux.capa = RSTRING(str2)->as.heap.aux.capa;
+      |                                                           ^~
+cc1: note: source object is likely at address zero
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+In file included from ./include/ruby/internal/core/rstring.h:30,
+                 from ./include/ruby/internal/arithmetic/char.h:29,
+                 from ./include/ruby/internal/arithmetic.h:23,
+                 from ./include/ruby/ruby.h:27:
+In function 'rbimpl_fl_unset_raw_raw',
+    inlined from 'RB_FL_UNSET_RAW' at ./include/ruby/internal/fl_type.h:707:5,
+    inlined from 'RARY_TRANSIENT_UNSET' at internal/array.h:84:5,
+    inlined from 'rb_ary_sort_bang' at array.c:3356:13:
+./include/ruby/internal/fl_type.h:691:8: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+  691 |     obj->flags &= ~flags;
+      |     ~~~^~~~~~~
+In function 'rb_ary_sort_bang':
+cc1: note: source object is likely at address zero
+array.c:111:16: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+  111 |     RBASIC(ary)->flags &= ~RARRAY_EMBED_LEN_MASK; \
+      |                ^~
+array.c:3357:13: note: in expansion of macro 'ARY_SET_EMBED_LEN'
+ 3357 |             ARY_SET_EMBED_LEN(tmp, 0);
+      |             ^~~~~~~~~~~~~~~~~
+cc1: note: source object is likely at address zero
+string.c: In function 'str_replace_shared_without_enc.isra':
+string.c:1328:36: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+ 1328 |         RSTRING(str2)->as.heap.len = len;
+cc1: note: source object is likely at address zero
+string.c:1329:36: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+ 1329 |         RSTRING(str2)->as.heap.ptr = ptr;
+cc1: note: source object is likely at address zero
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+In file included from ./include/ruby/internal/core.h:23,
+                 from ./include/ruby/ruby.h:28,
+                 from eval_intern.h:4,
+                 from vm.c:13:
+In function 'rb_array_const_ptr_transient',
+    inlined from 'RARRAY_AREF' at internal/array.h:110:12,
+    inlined from 'pathobj_path' at vm_core.h:328:9,
+    inlined from 'rb_binding_add_dynavars' at vm.c:1260:18:
+./include/ruby/internal/core/rarray.h:375:54: warning: array subscript 0 is outside array bounds of 'struct RBasic[0]' [-Warray-bounds=]
+  375 |         return FIX_CONST_VALUE_PTR(RARRAY(a)->as.heap.ptr);
+      |                                                      ^
+./include/ruby/internal/core/rarray.h:78:34: note: in definition of macro 'FIX_CONST_VALUE_PTR'
+   78 | # define FIX_CONST_VALUE_PTR(x) (x)
+      |                                  ^
+In function 'rb_binding_add_dynavars':
+cc1: note: source object is likely at address zero
+In file included from vm_core.h:71,
+                 from eval_intern.h:5:
+In function 'RARRAY_AREF',
+    inlined from 'pathobj_path' at vm_core.h:328:9,
+    inlined from 'rb_binding_add_dynavars' at vm.c:1260:18:
+internal/array.h:110:43: warning: array subscript 0 is outside array bounds of 'const VALUE[0]' {aka 'const long unsigned int[]'} [-Warray-bounds=]
+  110 |     return RARRAY_CONST_PTR_TRANSIENT(ary)[i];
+In function 'rb_binding_add_dynavars':
+cc1: note: source object is likely at address zero
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+linking miniruby
+builtin_binary.inc updated
+compiling builtin.c
+/bin/sh ./tool/ifchange "--timestamp=.rbconfig.time" rbconfig.rb rbconfig.tmp
+rbconfig.rb updated
+generating encdb.h
+generating enc.mk
+creating verconf.h
+building rb_mjit_header.h
+verconf.h updated
+compiling loadpath.c
+encdb.h updated
+making srcs under enc
+rb_mjit_header.h updated
+building .ext/include/x86_64-linux/rb_mjit_min_header-3.1.6.h
+linking static-library libruby-static.a
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Nothing to be done for 'srcs'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+generating transdb.h
+transdb.h updated
+linking shared-library libruby.so.3.1.6
+transform_mjit_header: making external definition static inline: rb_vm_lvar_exposed, Init_vm_stack_canary, rb_vm_opt_cfunc_p, rb_vm_opt_mod, rb_vm_ic_hit_p, rb_vm_splat_array, rb_vm_defined, rb_vm_cc_general, rb_aliased_callable_method_entry, rb_find_defined_class_by_owner, rb_vm_call_ivar_attrset_p, rb_iseq_only_kwparam_p, rb_iseq_only_optparam_p, rb_vm_set_ivar_idx, rb_vm_setinstancevariable, rb_vm_setclassvariable, rb_vm_getclassvariable, rb_vm_rewrite_cref, rb_vm_get_cref, rb_vm_block_ep_update, rb_vm_cref_new_toplevel, rb_vm_cref_dup_without_refinements, rb_vm_frame_block_handler, rb_vm_cframe_keyword_p, rb_vm_ep_local_ep
+transform_mjit_header: making declaration static inline: rb_vm_lvar_exposed, rb_vm_lvar_exposed, Init_vm_stack_canary, rb_vm_rewrite_cref, rb_vm_frame_block_handler, rb_vm_block_ep_update, rb_vm_ep_local_ep
+transform_mjit_header: SKIPPED to transform: getlogin_r, pread64, pread, read, bsearch, fread_unlocked, fgets_unlocked, fread, fgets, vdprintf, dprintf, vfprintf, vprintf, printf, fprintf, getline, putchar_unlocked, putc_unlocked, fputc_unlocked, putchar, getchar_unlocked, getc_unlocked, fgetc_unlocked, getchar
+ln -sf ../../../.ext/include/x86_64-linux/rb_mjit_min_header-3.1.6.h include/ruby-3.1.0/x86_64-linux/rb_mjit_min_header-3.1.6.h
+generating makefiles ext/configure-ext.mk
+building spec/ruby/optional/capi/ext/array_spec.so
+building spec/ruby/optional/capi/ext/basic_object_spec.so
+building spec/ruby/optional/capi/ext/bignum_spec.so
+building spec/ruby/optional/capi/ext/binding_spec.so
+building spec/ruby/optional/capi/ext/boolean_spec.so
+building spec/ruby/optional/capi/ext/class_id_under_autoload_spec.so
+building spec/ruby/optional/capi/ext/class_spec.so
+building spec/ruby/optional/capi/ext/class_under_autoload_spec.so
+building spec/ruby/optional/capi/ext/complex_spec.so
+building spec/ruby/optional/capi/ext/constants_spec.so
+building spec/ruby/optional/capi/ext/data_spec.so
+building spec/ruby/optional/capi/ext/debug_spec.so
+building spec/ruby/optional/capi/ext/encoding_spec.so
+building spec/ruby/optional/capi/ext/enumerator_spec.so
+building spec/ruby/optional/capi/ext/exception_spec.so
+building spec/ruby/optional/capi/ext/fiber_spec.so
+building spec/ruby/optional/capi/ext/file_spec.so
+building spec/ruby/optional/capi/ext/fixnum_spec.so
+building spec/ruby/optional/capi/ext/float_spec.so
+building spec/ruby/optional/capi/ext/gc_spec.so
+building spec/ruby/optional/capi/ext/globals_spec.so
+building spec/ruby/optional/capi/ext/hash_spec.so
+building spec/ruby/optional/capi/ext/integer_spec.so
+building spec/ruby/optional/capi/ext/io_spec.so
+building spec/ruby/optional/capi/ext/kernel_spec.so
+building spec/ruby/optional/capi/ext/language_spec.so
+building spec/ruby/optional/capi/ext/marshal_spec.so
+building spec/ruby/optional/capi/ext/module_spec.so
+building spec/ruby/optional/capi/ext/module_under_autoload_spec.so
+building spec/ruby/optional/capi/ext/mutex_spec.so
+building spec/ruby/optional/capi/ext/numeric_spec.so
+building spec/ruby/optional/capi/ext/object_spec.so
+building spec/ruby/optional/capi/ext/proc_spec.so
+building spec/ruby/optional/capi/ext/range_spec.so
+building spec/ruby/optional/capi/ext/rational_spec.so
+building spec/ruby/optional/capi/ext/rbasic_spec.so
+building spec/ruby/optional/capi/ext/regexp_spec.so
+building spec/ruby/optional/capi/ext/st_spec.so
+building spec/ruby/optional/capi/ext/string_spec.so
+building spec/ruby/optional/capi/ext/struct_spec.so
+building spec/ruby/optional/capi/ext/symbol_spec.so
+building spec/ruby/optional/capi/ext/thread_spec.so
+ext/configure-ext.mk updated
+building spec/ruby/optional/capi/ext/time_spec.so
+building spec/ruby/optional/capi/ext/tracepoint_spec.so
+building spec/ruby/optional/capi/ext/typed_data_spec.so
+building spec/ruby/optional/capi/ext/util_spec.so
+making enc
+making trans
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+compiling ./enc/trans/transdb.c
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+compiling ./enc/encdb.c
+compiling ./enc/big5.c
+compiling ./enc/cesu_8.c
+compiling ./enc/trans/big5.c
+compiling ./enc/cp949.c
+compiling ./enc/trans/cesu_8.c
+compiling ./enc/emacs_mule.c
+compiling ./enc/trans/chinese.c
+compiling ./enc/euc_jp.c
+compiling ./enc/trans/ebcdic.c
+compiling ./enc/euc_kr.c
+compiling ./enc/euc_tw.c
+compiling ./enc/trans/emoji.c
+compiling ./enc/trans/emoji_iso2022_kddi.c
+compiling ./enc/gb2312.c
+compiling ./enc/trans/emoji_sjis_docomo.c
+compiling ./enc/gb18030.c
+compiling ./enc/gbk.c
+compiling ./enc/trans/emoji_sjis_kddi.c
+compiling ./enc/trans/emoji_sjis_softbank.c
+compiling ./enc/iso_8859_1.c
+compiling ./enc/trans/escape.c
+compiling ./enc/iso_8859_2.c
+compiling ./enc/iso_8859_3.c
+compiling ./enc/trans/gb18030.c
+compiling ./enc/iso_8859_4.c
+compiling ./enc/trans/gbk.c
+compiling ./enc/iso_8859_5.c
+compiling ./enc/trans/iso2022.c
+compiling ./enc/iso_8859_6.c
+compiling ./enc/trans/japanese.c
+compiling ./enc/iso_8859_7.c
+compiling ./enc/trans/japanese_euc.c
+compiling ./enc/trans/japanese_sjis.c
+compiling ./enc/iso_8859_8.c
+compiling ./enc/iso_8859_9.c
+compiling ./enc/iso_8859_10.c
+compiling ./enc/trans/korean.c
+compiling ./enc/iso_8859_11.c
+compiling ./enc/iso_8859_13.c
+compiling ./enc/iso_8859_14.c
+compiling ./enc/iso_8859_15.c
+compiling ./enc/iso_8859_16.c
+compiling ./enc/koi8_r.c
+compiling ./enc/koi8_u.c
+compiling ./enc/shift_jis.c
+compiling ./enc/utf_16be.c
+compiling ./enc/utf_16le.c
+compiling ./enc/utf_32be.c
+compiling ./enc/utf_32le.c
+compiling ./enc/windows_31j.c
+compiling ./enc/windows_1250.c
+compiling ./enc/windows_1251.c
+compiling ./enc/windows_1252.c
+compiling ./enc/windows_1253.c
+compiling ./enc/windows_1254.c
+compiling ./enc/trans/single_byte.c
+compiling ./enc/windows_1257.c
+compiling ./enc/trans/utf8_mac.c
+compiling ./enc/trans/utf_16_32.c
+linking transcoder transdb.so
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+linking encoding euc_kr.so
+linking encoding gb2312.so
+linking encoding iso_8859_11.so
+configuring etc
+linking encoding iso_8859_6.so
+linking transcoder japanese.so
+linking encoding iso_8859_8.so
+configuring fcntl
+configuring continuation
+configuring coverage
+configuring bigdecimal
+configuring -test-/RUBY_ALIGNOF
+linking encoding euc_tw.so
+configuring date
+linking transcoder ebcdic.so
+configuring io/console
+configuring json
+configuring monitor
+configuring nkf
+configuring digest
+linking encoding big5.so
+configuring pathname
+configuring cgi/escape
+configuring json/generator
+linking encoding cp949.so
+linking encoding iso_8859_4.so
+configuring openssl
+linking encoding iso_8859_5.so
+configuring digest/bubblebabble
+linking encoding gbk.so
+configuring fiddle
+linking encoding iso_8859_7.so
+configuring json/parser
+configuring objspace
+linking transcoder cesu_8.so
+linking encoding koi8_r.so
+configuring pty
+configuring psych
+configuring digest/md5
+linking encoding koi8_u.so
+linking encoding utf_32be.so
+configuring stringio
+linking encoding windows_1252.so
+configuring strscan
+configuring socket
+configuring syslog
+configuring ripper
+configuring racc/cparse
+configuring readline
+configuring rubyvm
+configuring rbconfig/sizeof
+linking encoding iso_8859_2.so
+linking encoding iso_8859_3.so
+linking encoding iso_8859_9.so
+linking encoding iso_8859_10.so
+linking transcoder escape.so
+linking encoding iso_8859_13.so
+linking encoding utf_16be.so
+linking encoding utf_16le.so
+linking encoding utf_32le.so
+linking encoding windows_1253.so
+linking encoding windows_1257.so
+linking encoding emacs_mule.so
+linking encoding gb18030.so
+linking encoding iso_8859_1.so
+linking encoding iso_8859_14.so
+linking encoding iso_8859_15.so
+linking encoding iso_8859_16.so
+configuring debug-1.6.3/ext/debug
+configuring zlib
+linking encoding windows_1250.so
+linking encoding windows_1251.so
+linking encoding windows_1254.so
+linking encoding encdb.so
+configuring rbs-2.7.0/ext/rbs_extension
+linking encoding windows_31j.so
+linking transcoder emoji.so
+linking transcoder iso2022.so
+linking encoding cesu_8.so
+linking encoding shift_jis.so
+linking encoding euc_jp.so
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+linking transcoder utf_16_32.so
+linking transcoder single_byte.so
+linking transcoder emoji_sjis_softbank.so
+linking transcoder emoji_sjis_kddi.so
+configuring digest/rmd160
+configuring -test-/arith_seq/extract
+configuring -test-/array/concat
+configuring -test-/array/resize
+configuring -test-/bignum
+configuring -test-/bug-14834
+configuring -test-/bug-3571
+configuring -test-/bug-5832
+configuring -test-/bug_reporter
+linking transcoder japanese_sjis.so
+configuring -test-/class
+configuring -test-/cxxanyargs
+linking transcoder emoji_iso2022_kddi.so
+linking transcoder gb18030.so
+configuring -test-/debug
+linking transcoder emoji_sjis_docomo.so
+configuring -test-/dln/empty
+configuring -test-/econv
+configuring -test-/enumerator_kw
+linking transcoder chinese.so
+configuring -test-/exception
+configuring -test-/fatal
+configuring -test-/file
+configuring digest/sha1
+linking transcoder gbk.so
+configuring digest/sha2
+libffi_version: 3.4.6
+linking transcoder utf8_mac.so
+linking transcoder korean.so
+configuring io/nonblock
+linking transcoder japanese_euc.so
+configuring io/wait
+linking transcoder big5.so
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+making encs
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Nothing to be done for 'encs'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+configuring -test-/float
+configuring -test-/funcall
+configuring -test-/gvl/call_without_gvl
+configuring -test-/hash
+configuring -test-/integer
+configuring -test-/iseq_load
+configuring -test-/iter
+configuring -test-/load/dot.dot
+configuring -test-/load/protect
+configuring -test-/marshal/compat
+configuring -test-/marshal/internal_ivar
+configuring -test-/marshal/usr
+configuring -test-/memory_status
+configuring -test-/memory_view
+configuring -test-/method
+configuring -test-/notimplement
+configuring -test-/num2int
+configuring -test-/path_to_class
+configuring -test-/popen_deadlock
+configuring -test-/postponed_job
+configuring -test-/printf
+configuring -test-/proc
+configuring -test-/random
+configuring -test-/rational
+configuring -test-/rb_call_super_kw
+configuring -test-/recursion
+configuring -test-/regexp
+configuring -test-/scan_args
+configuring -test-/st/foreach
+configuring -test-/st/numhash
+configuring -test-/st/update
+configuring -test-/string
+configuring -test-/struct
+configuring -test-/symbol
+configuring -test-/thread_fd
+configuring -test-/time
+configuring -test-/tracepoint
+configuring -test-/typeddata
+configuring -test-/vm
+configuring -test-/wait
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+generating makefile exts.mk
+exts.mk updated
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/RUBY_ALIGNOF'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/arith_seq/extract'
+compiling c.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/cxxanyargs'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/dln/empty'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/array/concat'
+compiling cxxanyargs.cpp
+compiling extract.c
+compiling empty.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/econv'
+compiling cpp.cpp
+compiling to_ary_concat.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/array/resize'
+compiling append.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bug-14834'
+compiling resize.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bug-3571'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bug-5832'
+compiling bug-14384.c
+compiling bug.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bug_reporter'
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bignum'
+compiling bug.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/class'
+compiling bug_reporter.c
+compiling big2str.c
+compiling class2name.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/enumerator_kw'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/load/dot.dot'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/debug'
+compiling bigzero.c
+compiling enumerator_kw.c
+compiling dot.dot.c
+compiling init.c
+compiling div.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/fatal'
+compiling inspector.c
+compiling rb_fatal.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/exception'
+compiling profile_frames.c
+compiling intpack.c
+compiling mul.c
+compiling dataerror.c
+compiling str2big.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/hash'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/funcall'
+compiling delete.c
+compiling enc_raise.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/gvl/call_without_gvl'
+compiling funcall.c
+compiling ensured.c
+compiling init.c
+compiling call_without_gvl.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/float'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/marshal/compat'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/load/protect'
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/file'
+compiling protect.c
+compiling usrcompat.c
+compiling fs.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/iter'
+compiling init.c
+compiling break.c
+compiling nextafter.c
+compiling init.c
+compiling stat.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/num2int'
+compiling num2int.c
+compiling yield.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/notimplement'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/iseq_load'
+compiling bug.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/integer'
+compiling iseq_load.c
+compiling core_ext.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/method'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/rb_call_super_kw'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/marshal/usr'
+compiling arity.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/memory_view'
+compiling init.c
+compiling rb_call_super_kw.c
+compiling memory_view.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/printf'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/recursion'
+compiling usrmarshal.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/regexp'
+compiling my_integer.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/random'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/rational'
+compiling printf.c
+linking shared-object -test-/dln/empty.so
+compiling recursion.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/scan_args'
+compiling init.c
+compiling rat.c
+compiling scan_args.c
+compiling init.c
+compiling parse_depth_limit.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/marshal/internal_ivar'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/path_to_class'
+compiling loop.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/json'
+compiling path_to_class.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/postponed_job'
+compiling internal_ivar.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/struct'
+compiling postponed_job.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/symbol'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/popen_deadlock'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/st/numhash'
+compiling duplicate.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/thread_fd'
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/proc'
+compiling numhash.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/time'
+compiling infinite_loop_dlsym.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/vm'
+compiling thread_fd.c
+compiling init.c
+compiling init.c
+compiling at_exit.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/continuation'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/wait'
+linking shared-object -test-/load/dot.dot.so
+compiling continuation.c
+compiling wait.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/typeddata'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/cgi/escape'
+compiling type.c
+compiling init.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/st/update'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/bigdecimal'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/fcntl'
+compiling leap_second.c
+compiling escape.c
+compiling typeddata.c
+compiling new.c
+compiling fcntl.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/string'
+compiling update.c
+compiling bigdecimal.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/st/foreach'
+compiling capacity.c
+compiling len.c
+compiling foreach.c
+compiling receiver.c
+compiling coderange.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/date'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/fiddle'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/tracepoint'
+compiling super.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/rubyvm'
+compiling date_core.c
+compiling digest.c
+compiling missing.c
+compiling date_parse.c
+compiling cstr.c
+compiling ellipsize.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/etc'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/nkf'
+compiling gc_hook.c
+compiling closure.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/io/nonblock'
+compiling etc.c
+compiling nkf.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/monitor'
+compiling monitor.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/openssl'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/pathname'
+compiling openssl_missing.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/io/console'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/racc/cparse'
+compiling date_strptime.c
+compiling pathname.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/io/wait'
+compiling console.c
+compiling date_strftime.c
+compiling wait.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/readline'
+compiling nonblock.c
+compiling tracepoint.c
+compiling cparse.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/psych'
+compiling member.c
+compiling readline.c
+compiling psych.c
+installing default libraries
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/objspace'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/rubyvm'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/rbconfig/sizeof'
+compiling object_tracing.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/coverage'
+compiling sizes.c
+compiling coverage.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/pty'
+compiling pty.c
+installing default pathname libraries
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/stringio'
+compiling stringio.c
+compiling limits.c
+installing default pty libraries
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/ripper'
+installing default libraries
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/dln/empty'
+compiling conversions.c
+compiling ripper.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/socket'
+compiling init.c
+installing default date_core libraries
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/load/dot.dot'
+compiling fiddle.c
+compiling function.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/json'
+compiling handle.c
+compiling objspace.c
+compiling ossl.c
+linking shared-object -test-/bug_14834.so
+linking shared-object -test-/arith_seq/extract.so
+linking shared-object -test-/class.so
+linking shared-object -test-/array/resize.so
+linking shared-object -test-/bug_reporter.so
+compiling constants.c
+compiling enc_associate.c
+linking shared-object -test-/array/to_ary_concat.so
+compiling ossl_asn1.c
+compiling ossl_bio.c
+installing default coverage libraries
+linking shared-object -test-/bug_5832.so
+linking shared-object -test-/bug_3571.so
+installing default monitor libraries
+compiling enc_str_buf_cat.c
+linking shared-object -test-/fatal/rb_fatal.so
+compiling psych_emitter.c
+linking shared-object -test-/marshal/compat.so
+compiling objspace_dump.c
+installing default bigdecimal libraries
+linking shared-object -test-/rb_call_super_kw.so
+compiling psych_parser.c
+compiling psych_to_ruby.c
+linking shared-object -test-/hash.so
+compiling ossl_bn.c
+linking shared-object -test-/econv.so
+linking shared-object -test-/thread_fd.so
+linking shared-object continuation.so
+linking shared-object -test-/regexp.so
+linking shared-object -test-/iter.so
+linking shared-object -test-/recursion.so
+compiling memory_view.c
+compiling fstring.c
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/strscan'
+linking shared-object -test-/popen_deadlock/infinite_loop_dlsym.so
+compiling strscan.c
+installing default nkf libraries
+linking shared-object -test-/method.so
+linking shared-object -test-/debug.so
+compiling psych_yaml_tree.c
+compiling pointer.c
+linking shared-object -test-/gvl/call_without_gvl.so
+linking shared-object -test-/st/update.so
+compiling ossl_cipher.c
+installing digest libraries
+compiling pinned.c
+linking shared-object -test-/funcall.so
+compiling init.c
+compiling ossl_config.c
+installing default console libraries
+compiling ossl_digest.c
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+compiling basicsocket.c
+linking shared-object -test-/marshal/usr.so
+compiling ossl_engine.c
+linking shared-object -test-/exception.so
+installing default digest libraries
+linking shared-object -test-/typeddata.so
+compiling socket.c
+linking shared-object -test-/vm/at_exit.so
+compiling modify.c
+compiling ossl_hmac.c
+compiling ipsocket.c
+linking shared-object -test-/float.so
+linking shared-object fcntl.so
+compiling new.c
+compiling tcpsocket.c
+linking shared-object -test-/path_to_class.so
+linking shared-object -test-/marshal/internal_ivar.so
+compiling ossl_kdf.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/class'
+compiling ossl_ns_spki.c
+linking shared-object -test-/load/protect.so
+linking shared-object -test-/proc.so
+compiling tcpserver.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/arith_seq/extract'
+linking shared-object -test-/postponed_job.so
+linking shared-object -test-/notimplement.so
+linking shared-object -test-/enumerator_kw.so
+linking shared-object -test-/file.so
+linking shared-object -test-/iseq_load.so
+compiling ossl_ocsp.c
+compiling nofree.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bug-14834'
+linking shared-object -test-/tracepoint.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bug-5832'
+compiling sockssocket.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/array/resize'
+linking shared-object -test-/symbol.so
+compiling normalize.c
+linking shared-object -test-/num2int.so
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/syslog'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bug_reporter'
+compiling ossl_pkcs12.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/rb_call_super_kw'
+linking shared-object -test-/struct.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/fatal'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/hash'
+compiling ossl_pkcs7.c
+compiling syslog.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/thread_fd'
+compiling qsort.c
+linking shared-object -test-/bignum.so
+compiling ossl_pkey.c
+installing default fiddle libraries
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/.bundle/gems/debug-1.6.3/ext/debug'
+linking shared-object -test-/st/foreach.so
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/zlib'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/marshal/compat'
+compiling zlib.c
+linking shared-object -test-/wait.so
+compiling ossl_pkey_dh.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/array/concat'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bug-3571'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/continuation'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/recursion'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/popen_deadlock'
+compiling rb_interned_str.c
+linking shared-object -test-/random.so
+compiling debug.c
+compiling iseq_collector.c
+compiling ossl_pkey_dsa.c
+linking shared-object -test-/st/numhash.so
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/.bundle/gems/rbs-2.7.0/ext/rbs_extension'
+compiling ossl_pkey_ec.c
+compiling udpsocket.c
+compiling constants.c
+compiling unixsocket.c
+compiling unixserver.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/funcall'
+compiling ossl_pkey_rsa.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/marshal/usr'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/method'
+compiling option.c
+linking shared-object io/nonblock.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/debug'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/json/parser'
+compiling ossl_ssl.c
+compiling parser.c
+compiling ossl_rand.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/fcntl'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/st/update'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/json/generator'
+compiling ancdata.c
+linking shared-object monitor.so
+installing default syslog libraries
+compiling generator.c
+compiling raddrinfo.c
+compiling ossl_ssl_session.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/econv'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/iter'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/gvl/call_without_gvl'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/regexp'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/path_to_class'
+compiling ifaddr.c
+compiling rb_str_dup.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/typeddata'
+linking shared-object -test-/RUBY_ALIGNOF.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/vm'
+linking shared-object -test-/printf.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/marshal/internal_ivar'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/float'
+compiling ossl_ts.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/num2int'
+compiling set_len.c
+compiling lexer.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/postponed_job'
+compiling ossl_x509.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/load/protect'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/exception'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/proc'
+linking shared-object rbconfig/sizeof.so
+compiling lexstate.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/enumerator_kw'
+compiling location.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/notimplement'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/struct'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/tracepoint'
+installing default ripper libraries
+linking shared-object io/wait.so
+compiling main.c
+compiling ossl_x509attr.c
+compiling ossl_x509cert.c
+compiling ossl_x509crl.c
+compiling ossl_x509ext.c
+compiling parser.c
+compiling ossl_x509name.c
+compiling ossl_x509req.c
+compiling ossl_x509revoked.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/st/foreach'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/wait'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/iseq_load'
+compiling ossl_x509store.c
+compiling ruby_objs.c
+compiling parserstate.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/st/numhash'
+compiling unescape.c
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/monitor'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/io/nonblock'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/file'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/random'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/bignum'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/symbol'
+linking shared-object pty.so
+linking shared-object cgi/escape.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/printf'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/io/wait'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/RUBY_ALIGNOF'
+linking shared-object -test-/memory_view.so
+linking shared-object -test-/cxxanyargs.so
+linking shared-object digest.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/rbconfig/sizeof'
+linking shared-object coverage.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/pty'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/cgi/escape'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/memory_view'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest'
+ossl_pkey_rsa.c: In function 'RSA_HAS_PRIVATE':
+ossl_pkey_rsa.c:31:5: warning: 'RSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   31 |     RSA_get0_key(rsa, NULL, &e, &d);
+      |     ^~~~~~~~~~~~
+In file included from /usr/include/openssl/x509.h:36,
+                 from /usr/include/openssl/x509v3.h:25,
+                 from ossl.h:24,
+                 from ossl_pkey_rsa.c:10:
+/usr/include/openssl/rsa.h:222:28: note: declared here
+  222 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_key(const RSA *r,
+      |                            ^~~~~~~~~~~~
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/md5'
+compiling md5init.c
+compiling md5.c
+ossl_pkey_rsa.c: In function 'ossl_rsa_initialize':
+ossl_pkey_rsa.c:92:9: warning: 'RSA_new' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   92 |         rsa = RSA_new();
+      |         ^~~
+/usr/include/openssl/rsa.h:206:28: note: declared here
+  206 | OSSL_DEPRECATEDIN_3_0 RSA *RSA_new(void);
+      |                            ^~~~~~~
+ossl_pkey_rsa.c:103:5: warning: 'd2i_RSAPublicKey_bio' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  103 |     rsa = d2i_RSAPublicKey_bio(in, NULL);
+      |     ^~~
+/usr/include/openssl/x509.h:618:28: note: declared here
+  618 | OSSL_DEPRECATEDIN_3_0 RSA *d2i_RSAPublicKey_bio(BIO *bp, RSA **rsa);
+      |                            ^~~~~~~~~~~~~~~~~~~~
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/bubblebabble'
+ossl_pkey_rsa.c:107:5: warning: 'PEM_read_bio_RSAPublicKey' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  107 |     rsa = PEM_read_bio_RSAPublicKey(in, NULL, NULL, NULL);
+      |     ^~~
+In file included from /usr/include/openssl/ssl.h:36,
+                 from ossl.h:25:
+/usr/include/openssl/pem.h:448:1: note: declared here
+  448 | DECLARE_PEM_rw_attr(OSSL_DEPRECATEDIN_3_0, RSAPublicKey, RSA)
+      | ^~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:129:5: warning: 'EVP_PKEY_assign' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  129 |     if (!pkey || EVP_PKEY_assign_RSA(pkey, rsa) != 1) {
+      |     ^~
+In file included from /usr/include/openssl/x509.h:29:
+/usr/include/openssl/evp.h:1330:5: note: declared here
+ 1330 | int EVP_PKEY_assign(EVP_PKEY *pkey, int type, void *key);
+      |     ^~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:131:9: warning: 'RSA_free' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  131 |         RSA_free(rsa);
+      |         ^~~~~~~~
+/usr/include/openssl/rsa.h:298:28: note: declared here
+  298 | OSSL_DEPRECATEDIN_3_0 void RSA_free(RSA *r);
+      |                            ^~~~~~~~
+compiling bubblebabble.c
+ossl_pkey_rsa.c: In function 'ossl_rsa_is_public':
+ossl_pkey_rsa.c:179:5: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  179 |     GetRSA(self, rsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey_rsa.c:179:5: note: in expansion of macro 'GetRSA'
+  179 |     GetRSA(self, rsa);
+      |     ^~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_is_private':
+ossl_pkey_rsa.c:198:5: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  198 |     GetRSA(self, rsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/sha1'
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey_rsa.c:198:5: note: in expansion of macro 'GetRSA'
+  198 |     GetRSA(self, rsa);
+      |     ^~~~~~
+ossl_pkey_rsa.c: In function 'can_export_rsaprivatekey':
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/rmd160'
+ossl_pkey_rsa.c:209:5: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  209 |     GetRSA(self, rsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey_rsa.c:209:5: note: in expansion of macro 'GetRSA'
+  209 |     GetRSA(self, rsa);
+      |     ^~~~~~
+ossl_pkey_rsa.c:211:5: warning: 'RSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  211 |     RSA_get0_key(rsa, &n, &e, &d);
+      |     ^~~~~~~~~~~~
+/usr/include/openssl/rsa.h:222:28: note: declared here
+  222 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_key(const RSA *r,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_rsa.c:212:5: warning: 'RSA_get0_factors' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  212 |     RSA_get0_factors(rsa, &p, &q);
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/openssl/rsa.h:225:28: note: declared here
+  225 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_factors(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/sha2'
+ossl_pkey_rsa.c:213:5: warning: 'RSA_get0_crt_params' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  213 |     RSA_get0_crt_params(rsa, &dmp1, &dmq1, &iqmp);
+      |     ^~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/rsa.h:230:28: note: declared here
+  230 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_crt_params(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~~~~
+compiling sha1init.c
+compiling rmd160init.c
+compiling sha1.c
+compiling sha2init.c
+compiling sha2.c
+compiling rmd160.c
+ossl_pkey_dsa.c: In function 'DSA_HAS_PRIVATE':
+ossl_pkey_dsa.c:30:5: warning: 'DSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   30 |     DSA_get0_key(dsa, NULL, &bn);
+      |     ^~~~~~~~~~~~
+In file included from /usr/include/openssl/x509.h:37,
+                 from /usr/include/openssl/x509v3.h:25,
+                 from ossl.h:24,
+                 from ossl_pkey_dsa.c:10:
+/usr/include/openssl/dsa.h:204:28: note: declared here
+  204 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_key(const DSA *d, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_initialize':
+ossl_pkey_dsa.c:99:9: warning: 'DSA_new' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   99 |         dsa = DSA_new();
+      |         ^~~
+/usr/include/openssl/dsa.h:125:28: note: declared here
+  125 | OSSL_DEPRECATEDIN_3_0 DSA *DSA_new(void);
+      |                            ^~~~~~~
+ossl_pkey_dsa.c:110:5: warning: 'd2i_DSAPublicKey' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  110 |     dsa = (DSA *)PEM_ASN1_read_bio((d2i_of_void *)d2i_DSAPublicKey,
+      |     ^~~
+In file included from ossl.h:23:
+/usr/include/openssl/dsa.h:148:1: note: declared here
+  148 | DECLARE_ASN1_ENCODE_FUNCTIONS_only_attr(OSSL_DEPRECATEDIN_3_0,
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:133:5: warning: 'EVP_PKEY_assign' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  133 |     if (!pkey || EVP_PKEY_assign_DSA(pkey, dsa) != 1) {
+      |     ^~
+In file included from /usr/include/openssl/x509.h:29:
+/usr/include/openssl/evp.h:1330:5: note: declared here
+ 1330 | int EVP_PKEY_assign(EVP_PKEY *pkey, int type, void *key);
+      |     ^~~~~~~~~~~~~~~
+linking shared-object etc.so
+ossl_pkey_dsa.c:135:9: warning: 'DSA_free' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  135 |         DSA_free(dsa);
+      |         ^~~~~~~~
+/usr/include/openssl/dsa.h:127:28: note: declared here
+  127 | OSSL_DEPRECATEDIN_3_0 void DSA_free(DSA *r);
+      |                            ^~~~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_is_public':
+ossl_pkey_dsa.c:185:5: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  185 |     GetDSA(self, dsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey_dsa.c:185:5: note: in expansion of macro 'GetDSA'
+  185 |     GetDSA(self, dsa);
+      |     ^~~~~~
+ossl_pkey_dsa.c:186:5: warning: 'DSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  186 |     DSA_get0_key(dsa, &bn, NULL);
+      |     ^~~~~~~~~~~~
+/usr/include/openssl/dsa.h:204:28: note: declared here
+  204 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_key(const DSA *d, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_is_private':
+ossl_pkey_dsa.c:203:5: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  203 |     GetDSA(self, dsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey_dsa.c:203:5: note: in expansion of macro 'GetDSA'
+  203 |     GetDSA(self, dsa);
+      |     ^~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_export':
+ossl_pkey_dsa.c:230:5: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  230 |     GetDSA(self, dsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey_dsa.c:230:5: note: in expansion of macro 'GetDSA'
+  230 |     GetDSA(self, dsa);
+      |     ^~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_to_der':
+ossl_pkey_dsa.c:249:5: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  249 |     GetDSA(self, dsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey_dsa.c:249:5: note: in expansion of macro 'GetDSA'
+  249 |     GetDSA(self, dsa);
+      |     ^~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_get_params':
+ossl_pkey_dsa.c:272:5: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  272 |     GetDSA(self, dsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey_dsa.c:272:5: note: in expansion of macro 'GetDSA'
+  272 |     GetDSA(self, dsa);
+      |     ^~~~~~
+ossl_pkey_dsa.c:273:5: warning: 'DSA_get0_pqg' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  273 |     DSA_get0_pqg(dsa, &p, &q, &g);
+      |     ^~~~~~~~~~~~
+/usr/include/openssl/dsa.h:201:28: note: declared here
+  201 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_pqg(const DSA *d, const BIGNUM **p,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_dsa.c:274:5: warning: 'DSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  274 |     DSA_get0_key(dsa, &pub_key, &priv_key);
+      |     ^~~~~~~~~~~~
+/usr/include/openssl/dsa.h:204:28: note: declared here
+  204 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_key(const DSA *d, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_get_p':
+ossl_pkey_dsa.c:293:1: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  293 | OSSL_PKEY_BN_DEF3(dsa, DSA, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:106:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  106 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a1,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:293:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  293 | OSSL_PKEY_BN_DEF3(dsa, DSA, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:293:1: warning: 'DSA_get0_pqg' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dsa.h:201:28: note: declared here
+  201 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_pqg(const DSA *d, const BIGNUM **p,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_get_q':
+ossl_pkey_dsa.c:293:1: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  293 | OSSL_PKEY_BN_DEF3(dsa, DSA, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/coverage'
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:108:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  108 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a2,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:293:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  293 | OSSL_PKEY_BN_DEF3(dsa, DSA, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:293:1: warning: 'DSA_get0_pqg' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dsa.h:201:28: note: declared here
+  201 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_pqg(const DSA *d, const BIGNUM **p,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_get_g':
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/cxxanyargs'
+ossl_pkey_dsa.c:293:1: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  293 | OSSL_PKEY_BN_DEF3(dsa, DSA, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:110:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  110 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a3,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:293:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  293 | OSSL_PKEY_BN_DEF3(dsa, DSA, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:293:1: warning: 'DSA_get0_pqg' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dsa.h:201:28: note: declared here
+  201 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_pqg(const DSA *d, const BIGNUM **p,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_get_pub_key':
+ossl_pkey_dsa.c:301:1: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  301 | OSSL_PKEY_BN_DEF2(dsa, DSA, key, pub_key, priv_key)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:114:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  114 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a1,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:198:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER2'
+  198 |         OSSL_PKEY_BN_DEF_GETTER2(_keytype, _type, _group, a1, a2)       \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:301:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF2'
+  301 | OSSL_PKEY_BN_DEF2(dsa, DSA, key, pub_key, priv_key)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:301:1: warning: 'DSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dsa.h:204:28: note: declared here
+  204 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_key(const DSA *d, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_dsa.c: In function 'ossl_dsa_get_priv_key':
+ossl_pkey_dsa.c:301:1: warning: 'EVP_PKEY_get0_DSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  301 | OSSL_PKEY_BN_DEF2(dsa, DSA, key, pub_key, priv_key)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1357:22: note: declared here
+ 1357 | const struct dsa_st *EVP_PKEY_get0_DSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dsa) = EVP_PKEY_get0_DSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:116:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  116 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a2,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:198:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER2'
+  198 |         OSSL_PKEY_BN_DEF_GETTER2(_keytype, _type, _group, a1, a2)       \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:301:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF2'
+  301 | OSSL_PKEY_BN_DEF2(dsa, DSA, key, pub_key, priv_key)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dsa.c:301:1: warning: 'DSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dsa.h:204:28: note: declared here
+  204 | OSSL_DEPRECATEDIN_3_0 void DSA_get0_key(const DSA *d, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_params':
+ossl_pkey_rsa.c:460:5: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  460 |     GetRSA(self, rsa);
+      |     ^~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey_rsa.c:460:5: note: in expansion of macro 'GetRSA'
+  460 |     GetRSA(self, rsa);
+      |     ^~~~~~
+ossl_pkey_rsa.c:461:5: warning: 'RSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  461 |     RSA_get0_key(rsa, &n, &e, &d);
+      |     ^~~~~~~~~~~~
+/usr/include/openssl/rsa.h:222:28: note: declared here
+  222 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_key(const RSA *r,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_rsa.c:462:5: warning: 'RSA_get0_factors' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  462 |     RSA_get0_factors(rsa, &p, &q);
+      |     ^~~~~~~~~~~~~~~~
+/usr/include/openssl/rsa.h:225:28: note: declared here
+  225 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_factors(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:463:5: warning: 'RSA_get0_crt_params' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  463 |     RSA_get0_crt_params(rsa, &dmp1, &dmq1, &iqmp);
+      |     ^~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/rsa.h:230:28: note: declared here
+  230 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_crt_params(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_n':
+ossl_pkey_rsa.c:485:1: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  485 | OSSL_PKEY_BN_DEF3(rsa, RSA, key, n, e, d)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetRSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:106:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  106 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a1,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:485:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  485 | OSSL_PKEY_BN_DEF3(rsa, RSA, key, n, e, d)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:485:1: warning: 'RSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/rsa.h:222:28: note: declared here
+  222 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_key(const RSA *r,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_e':
+ossl_pkey_rsa.c:485:1: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  485 | OSSL_PKEY_BN_DEF3(rsa, RSA, key, n, e, d)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetRSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:108:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  108 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a2,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:485:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  485 | OSSL_PKEY_BN_DEF3(rsa, RSA, key, n, e, d)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:485:1: warning: 'RSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/rsa.h:222:28: note: declared here
+  222 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_key(const RSA *r,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_d':
+ossl_pkey_rsa.c:485:1: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  485 | OSSL_PKEY_BN_DEF3(rsa, RSA, key, n, e, d)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetRSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:110:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  110 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a3,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:485:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  485 | OSSL_PKEY_BN_DEF3(rsa, RSA, key, n, e, d)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:485:1: warning: 'RSA_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/rsa.h:222:28: note: declared here
+  222 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_key(const RSA *r,
+      |                            ^~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_p':
+ossl_pkey_rsa.c:493:1: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  493 | OSSL_PKEY_BN_DEF2(rsa, RSA, factors, p, q)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetRSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:114:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  114 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a1,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:198:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER2'
+  198 |         OSSL_PKEY_BN_DEF_GETTER2(_keytype, _type, _group, a1, a2)       \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:493:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF2'
+  493 | OSSL_PKEY_BN_DEF2(rsa, RSA, factors, p, q)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:493:1: warning: 'RSA_get0_factors' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/rsa.h:225:28: note: declared here
+  225 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_factors(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_q':
+ossl_pkey_rsa.c:493:1: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  493 | OSSL_PKEY_BN_DEF2(rsa, RSA, factors, p, q)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetRSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:116:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  116 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a2,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:198:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER2'
+  198 |         OSSL_PKEY_BN_DEF_GETTER2(_keytype, _type, _group, a1, a2)       \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:493:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF2'
+  493 | OSSL_PKEY_BN_DEF2(rsa, RSA, factors, p, q)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:493:1: warning: 'RSA_get0_factors' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/rsa.h:225:28: note: declared here
+  225 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_factors(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_dmp1':
+ossl_pkey_rsa.c:503:1: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  503 | OSSL_PKEY_BN_DEF3(rsa, RSA, crt_params, dmp1, dmq1, iqmp)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetRSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:106:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  106 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a1,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:503:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  503 | OSSL_PKEY_BN_DEF3(rsa, RSA, crt_params, dmp1, dmq1, iqmp)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:503:1: warning: 'RSA_get0_crt_params' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/rsa.h:230:28: note: declared here
+  230 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_crt_params(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_dmq1':
+ossl_pkey_rsa.c:503:1: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  503 | OSSL_PKEY_BN_DEF3(rsa, RSA, crt_params, dmp1, dmq1, iqmp)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetRSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:108:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  108 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a2,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:503:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  503 | OSSL_PKEY_BN_DEF3(rsa, RSA, crt_params, dmp1, dmq1, iqmp)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:503:1: warning: 'RSA_get0_crt_params' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/rsa.h:230:28: note: declared here
+  230 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_crt_params(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c: In function 'ossl_rsa_get_iqmp':
+ossl_pkey_rsa.c:503:1: warning: 'EVP_PKEY_get0_RSA' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  503 | OSSL_PKEY_BN_DEF3(rsa, RSA, crt_params, dmp1, dmq1, iqmp)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1348:22: note: declared here
+ 1348 | const struct rsa_st *EVP_PKEY_get0_RSA(const EVP_PKEY *pkey);
+      |                      ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:23:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (rsa) = EVP_PKEY_get0_RSA(_pkey); \
+      |           ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetRSA'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:110:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  110 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a3,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:503:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  503 | OSSL_PKEY_BN_DEF3(rsa, RSA, crt_params, dmp1, dmq1, iqmp)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_rsa.c:503:1: warning: 'RSA_get0_crt_params' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/rsa.h:230:28: note: declared here
+  230 | OSSL_DEPRECATEDIN_3_0 void RSA_get0_crt_params(const RSA *r,
+      |                            ^~~~~~~~~~~~~~~~~~~
+linking shared-object -test-/string.so
+linking shared-object racc/cparse.so
+ossl_pkey_dh.c: In function 'ossl_dh_initialize':
+ossl_pkey_dh.c:87:9: warning: 'DH_new' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   87 |         dh = DH_new();
+      |         ^~
+In file included from /usr/include/openssl/dsa.h:51,
+                 from /usr/include/openssl/x509.h:37,
+                 from /usr/include/openssl/x509v3.h:25,
+                 from ossl.h:24,
+                 from ossl_pkey_dh.c:10:
+/usr/include/openssl/dh.h:203:27: note: declared here
+  203 | OSSL_DEPRECATEDIN_3_0 DH *DH_new(void);
+      |                           ^~~~~~
+ossl_pkey_dh.c:100:5: warning: 'DH_new' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  100 |     dh = d2i_DHparams_bio(in, NULL);
+      |     ^~
+/usr/include/openssl/dh.h:203:27: note: declared here
+  203 | OSSL_DEPRECATEDIN_3_0 DH *DH_new(void);
+      |                           ^~~~~~
+ossl_pkey_dh.c:100:5: warning: 'd2i_DHparams' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  100 |     dh = d2i_DHparams_bio(in, NULL);
+      |     ^~
+In file included from ossl.h:23:
+/usr/include/openssl/dh.h:233:1: note: declared here
+  233 | DECLARE_ASN1_ENCODE_FUNCTIONS_only_attr(OSSL_DEPRECATEDIN_3_0, DH, DHparams)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:121:5: warning: 'EVP_PKEY_assign' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  121 |     if (!pkey || EVP_PKEY_assign_DH(pkey, dh) != 1) {
+      |     ^~
+In file included from /usr/include/openssl/x509.h:29:
+/usr/include/openssl/evp.h:1330:5: note: declared here
+ 1330 | int EVP_PKEY_assign(EVP_PKEY *pkey, int type, void *key);
+      |     ^~~~~~~~~~~~~~~
+ossl_pkey_dh.c:123:9: warning: 'DH_free' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  123 |         DH_free(dh);
+      |         ^~~~~~~
+/usr/include/openssl/dh.h:204:28: note: declared here
+  204 | OSSL_DEPRECATEDIN_3_0 void DH_free(DH *dh);
+      |                            ^~~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_is_public':
+ossl_pkey_ec.c: In function 'ec_key_new_from_group':
+ossl_pkey_dh.c:184:5: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  184 |     GetDH(self, dh);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:74:9: warning: 'EC_KEY_new' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   74 |         if (!(ec = EC_KEY_new()))
+      |         ^~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey_dh.c:184:5: note: in expansion of macro 'GetDH'
+  184 |     GetDH(self, dh);
+      |     ^~~~~
+ossl_pkey_dh.c:185:5: warning: 'DH_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  185 |     DH_get0_key(dh, &bn, NULL);
+      |     ^~~~~~~~~~~
+/usr/include/openssl/dh.h:260:28: note: declared here
+  260 | OSSL_DEPRECATEDIN_3_0 void DH_get0_key(const DH *dh, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~
+In file included from /usr/include/openssl/x509.h:33,
+                 from /usr/include/openssl/x509v3.h:25,
+                 from ossl.h:24,
+                 from ossl_pkey_ec.c:5:
+/usr/include/openssl/ec.h:968:31: note: declared here
+  968 | OSSL_DEPRECATEDIN_3_0 EC_KEY *EC_KEY_new(void);
+      |                               ^~~~~~~~~~
+ossl_pkey_ec.c:77:9: warning: 'EC_KEY_set_group' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   77 |         if (!EC_KEY_set_group(ec, group)) {
+      |         ^~
+/usr/include/openssl/ec.h:1042:27: note: declared here
+ 1042 | OSSL_DEPRECATEDIN_3_0 int EC_KEY_set_group(EC_KEY *key, const EC_GROUP *group);
+      |                           ^~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:78:13: warning: 'EC_KEY_free' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   78 |             EC_KEY_free(ec);
+      |             ^~~~~~~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_is_private':
+/usr/include/openssl/ec.h:1003:28: note: declared here
+ 1003 | OSSL_DEPRECATEDIN_3_0 void EC_KEY_free(EC_KEY *key);
+      |                            ^~~~~~~~~~~
+ossl_pkey_dh.c:203:5: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  203 |     GetDH(self, dh);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:87:9: warning: 'EC_KEY_new_by_curve_name' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   87 |         if (!(ec = EC_KEY_new_by_curve_name(nid)))
+      |         ^~
+/usr/include/openssl/ec.h:998:31: note: declared here
+  998 | OSSL_DEPRECATEDIN_3_0 EC_KEY *EC_KEY_new_by_curve_name(int nid);
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey_dh.c:203:5: note: in expansion of macro 'GetDH'
+  203 |     GetDH(self, dh);
+      |     ^~~~~
+ossl_pkey_ec.c:90:9: warning: 'EC_KEY_set_asn1_flag' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   90 |         EC_KEY_set_asn1_flag(ec, OPENSSL_EC_NAMED_CURVE);
+      |         ^~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/ec.h:1087:28: note: declared here
+ 1087 | OSSL_DEPRECATEDIN_3_0 void EC_KEY_set_asn1_flag(EC_KEY *eckey, int asn1_flag);
+      |                            ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:204:5: warning: 'DH_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  204 |     DH_get0_key(dh, NULL, &bn);
+      |     ^~~~~~~~~~~
+/usr/include/openssl/dh.h:260:28: note: declared here
+  260 | OSSL_DEPRECATEDIN_3_0 void DH_get0_key(const DH *dh, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~
+ossl_pkey_ec.c:91:9: warning: 'EC_KEY_set_conv_form' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   91 |         EC_KEY_set_conv_form(ec, POINT_CONVERSION_UNCOMPRESSED);
+      |         ^~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/ec.h:1075:28: note: declared here
+ 1075 | OSSL_DEPRECATEDIN_3_0 void EC_KEY_set_conv_form(EC_KEY *eckey,
+      |                            ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:207:5: warning: 'DH_get0_engine' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  207 |     return (bn || DH_get0_engine(dh)) ? Qtrue : Qfalse;
+      |     ^~~~~~
+/usr/include/openssl/dh.h:271:31: note: declared here
+  271 | OSSL_DEPRECATEDIN_3_0 ENGINE *DH_get0_engine(DH *d);
+      |                               ^~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_key_s_generate':
+ossl_pkey_ec.c:115:5: warning: 'EVP_PKEY_assign' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  115 |     if (!pkey || EVP_PKEY_assign_EC_KEY(pkey, ec) != 1) {
+      |     ^~
+ossl_pkey_dh.c: In function 'ossl_dh_export':
+ossl_pkey_dh.c:230:5: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  230 |     GetDH(self, dh);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+In file included from /usr/include/openssl/x509.h:29:
+/usr/include/openssl/evp.h:1330:5: note: declared here
+ 1330 | int EVP_PKEY_assign(EVP_PKEY *pkey, int type, void *key);
+      |     ^~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey_dh.c:230:5: note: in expansion of macro 'GetDH'
+  230 |     GetDH(self, dh);
+      |     ^~~~~
+ossl_pkey_ec.c:117:9: warning: 'EC_KEY_free' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  117 |         EC_KEY_free(ec);
+      |         ^~~~~~~~~~~
+/usr/include/openssl/ec.h:1003:28: note: declared here
+ 1003 | OSSL_DEPRECATEDIN_3_0 void EC_KEY_free(EC_KEY *key);
+      |                            ^~~~~~~~~~~
+ossl_pkey_dh.c:234:5: warning: 'PEM_write_bio_DHparams' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  234 |     if (!PEM_write_bio_DHparams(out, dh)) {
+      |     ^~
+ossl_pkey_ec.c:122:5: warning: 'EC_KEY_generate_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  122 |     if (!EC_KEY_generate_key(ec))
+      |     ^~
+/usr/include/openssl/ec.h:1101:27: note: declared here
+ 1101 | OSSL_DEPRECATEDIN_3_0 int EC_KEY_generate_key(EC_KEY *key);
+      |                           ^~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/openssl/ssl.h:36,
+                 from ossl.h:25:
+/usr/include/openssl/pem.h:469:1: note: declared here
+  469 | DECLARE_PEM_rw_attr(OSSL_DEPRECATEDIN_3_0, DHparams, DH)
+      | ^~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_to_der':
+ossl_pkey_dh.c:260:5: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  260 |     GetDH(self, dh);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey_dh.c:260:5: note: in expansion of macro 'GetDH'
+  260 |     GetDH(self, dh);
+      |     ^~~~~
+ossl_pkey_dh.c:261:5: warning: 'i2d_DHparams' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  261 |     if((len = i2d_DHparams(dh, NULL)) <= 0)
+      |     ^~
+/usr/include/openssl/dh.h:233:1: note: declared here
+  233 | DECLARE_ASN1_ENCODE_FUNCTIONS_only_attr(OSSL_DEPRECATEDIN_3_0, DH, DHparams)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:265:5: warning: 'i2d_DHparams' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  265 |     if(i2d_DHparams(dh, &p) < 0)
+      |     ^~
+/usr/include/openssl/dh.h:233:1: note: declared here
+  233 | DECLARE_ASN1_ENCODE_FUNCTIONS_only_attr(OSSL_DEPRECATEDIN_3_0, DH, DHparams)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_get_params':
+ossl_pkey_dh.c:287:5: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  287 |     GetDH(self, dh);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey_dh.c:287:5: note: in expansion of macro 'GetDH'
+  287 |     GetDH(self, dh);
+      |     ^~~~~
+ossl_pkey_dh.c:288:5: warning: 'DH_get0_pqg' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  288 |     DH_get0_pqg(dh, &p, &q, &g);
+      |     ^~~~~~~~~~~
+/usr/include/openssl/dh.h:257:28: note: declared here
+  257 | OSSL_DEPRECATEDIN_3_0 void DH_get0_pqg(const DH *dh, const BIGNUM **p,
+      |                            ^~~~~~~~~~~
+ossl_pkey_dh.c:289:5: warning: 'DH_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  289 |     DH_get0_key(dh, &pub_key, &priv_key);
+      |     ^~~~~~~~~~~
+/usr/include/openssl/dh.h:260:28: note: declared here
+  260 | OSSL_DEPRECATEDIN_3_0 void DH_get0_key(const DH *dh, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~
+ossl_ssl.c: In function 'ossl_tmp_dh_callback':
+ossl_ssl.c:294:5: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  294 |     return EVP_PKEY_get0_DH(pkey);
+      |     ^~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_get_p':
+In file included from /usr/include/openssl/x509.h:29,
+                 from /usr/include/openssl/x509v3.h:25,
+                 from ossl.h:24,
+                 from ossl_ssl.c:12:
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:349:1: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  349 | OSSL_PKEY_BN_DEF3(dh, DH, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_ssl.c:294:12: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  294 |     return EVP_PKEY_get0_DH(pkey);
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDH'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:106:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  106 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a1,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:349:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  349 | OSSL_PKEY_BN_DEF3(dh, DH, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:349:1: warning: 'DH_get0_pqg' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dh.h:257:28: note: declared here
+  257 | OSSL_DEPRECATEDIN_3_0 void DH_get0_pqg(const DH *dh, const BIGNUM **p,
+      |                            ^~~~~~~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_get_q':
+ossl_pkey_dh.c:349:1: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  349 | OSSL_PKEY_BN_DEF3(dh, DH, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDH'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:108:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  108 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a2,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:349:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  349 | OSSL_PKEY_BN_DEF3(dh, DH, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:349:1: warning: 'DH_get0_pqg' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dh.h:257:28: note: declared here
+  257 | OSSL_DEPRECATEDIN_3_0 void DH_get0_pqg(const DH *dh, const BIGNUM **p,
+      |                            ^~~~~~~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_get_g':
+ossl_pkey_dh.c:349:1: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  349 | OSSL_PKEY_BN_DEF3(dh, DH, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDH'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:110:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  110 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a3,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:194:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER3'
+  194 |         OSSL_PKEY_BN_DEF_GETTER3(_keytype, _type, _group, a1, a2, a3)   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:349:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF3'
+  349 | OSSL_PKEY_BN_DEF3(dh, DH, pqg, p, q, g)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:349:1: warning: 'DH_get0_pqg' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dh.h:257:28: note: declared here
+  257 | OSSL_DEPRECATEDIN_3_0 void DH_get0_pqg(const DH *dh, const BIGNUM **p,
+      |                            ^~~~~~~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_get_pub_key':
+ossl_pkey_dh.c:357:1: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  357 | OSSL_PKEY_BN_DEF2(dh, DH, key, pub_key, priv_key)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDH'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:114:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  114 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a1,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:198:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER2'
+  198 |         OSSL_PKEY_BN_DEF_GETTER2(_keytype, _type, _group, a1, a2)       \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:357:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF2'
+  357 | OSSL_PKEY_BN_DEF2(dh, DH, key, pub_key, priv_key)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:357:1: warning: 'DH_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dh.h:260:28: note: declared here
+  260 | OSSL_DEPRECATEDIN_3_0 void DH_get0_key(const DH *dh, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~
+ossl_pkey_dh.c: In function 'ossl_dh_get_priv_key':
+ossl_pkey_dh.c:357:1: warning: 'EVP_PKEY_get0_DH' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  357 | OSSL_PKEY_BN_DEF2(dh, DH, key, pub_key, priv_key)
+      | ^~~~~~~~~~~~~~~~~
+/usr/include/openssl/evp.h:1365:43: note: declared here
+ 1365 | OSSL_DEPRECATEDIN_3_0 const struct dh_st *EVP_PKEY_get0_DH(const EVP_PKEY *pkey);
+      |                                           ^~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:23:10: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   23 |     (dh) = EVP_PKEY_get0_DH(_pkey); \
+      |          ^
+ossl_pkey.h:98:9: note: in expansion of macro 'GetDH'
+   98 |         Get##_type(self, obj);                                          \
+      |         ^~~
+ossl_pkey.h:116:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER0'
+  116 |         OSSL_PKEY_BN_DEF_GETTER0(_keytype, _type, a2,                   \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey.h:198:9: note: in expansion of macro 'OSSL_PKEY_BN_DEF_GETTER2'
+  198 |         OSSL_PKEY_BN_DEF_GETTER2(_keytype, _type, _group, a1, a2)       \
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:357:1: note: in expansion of macro 'OSSL_PKEY_BN_DEF2'
+  357 | OSSL_PKEY_BN_DEF2(dh, DH, key, pub_key, priv_key)
+      | ^~~~~~~~~~~~~~~~~
+ossl_pkey_dh.c:357:1: warning: 'DH_get0_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+/usr/include/openssl/dh.h:260:28: note: declared here
+  260 | OSSL_DEPRECATEDIN_3_0 void DH_get0_key(const DH *dh, const BIGNUM **pub_key,
+      |                            ^~~~~~~~~~~
+ossl_ssl.c: In function 'ossl_sslctx_setup':
+ossl_ssl.c:769:5: warning: 'SSL_CTX_set_tmp_dh_callback' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  769 |     SSL_CTX_set_tmp_dh_callback(ctx, ossl_tmp_dh_callback);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ossl.h:25:
+/usr/include/openssl/ssl.h:2227:6: note: declared here
+ 2227 | void SSL_CTX_set_tmp_dh_callback(SSL_CTX *ctx,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_key_initialize':
+ossl_pkey_ec.c:153:9: warning: 'EC_KEY_new' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  153 |         if (!(ec = EC_KEY_new()))
+      |         ^~
+/usr/include/openssl/ec.h:968:31: note: declared here
+  968 | OSSL_DEPRECATEDIN_3_0 EC_KEY *EC_KEY_new(void);
+      |                               ^~~~~~~~~~
+ossl_pkey_ec.c:184:5: warning: 'EVP_PKEY_assign' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  184 |     if (!pkey || EVP_PKEY_assign_EC_KEY(pkey, ec) != 1) {
+      |     ^~
+/usr/include/openssl/evp.h:1330:5: note: declared here
+ 1330 | int EVP_PKEY_assign(EVP_PKEY *pkey, int type, void *key);
+      |     ^~~~~~~~~~~~~~~
+ossl_pkey_ec.c:186:9: warning: 'EC_KEY_free' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  186 |         EC_KEY_free(ec);
+      |         ^~~~~~~~~~~
+/usr/include/openssl/ec.h:1003:28: note: declared here
+ 1003 | OSSL_DEPRECATEDIN_3_0 void EC_KEY_free(EC_KEY *key);
+      |                            ^~~~~~~~~~~
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/etc'
+ossl_pkey_ec.c: In function 'ossl_ec_key_get_group':
+ossl_pkey_ec.c:233:5: warning: 'EVP_PKEY_get0_EC_KEY' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  233 |     GetEC(self, ec);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1374:25: note: declared here
+ 1374 | const struct ec_key_st *EVP_PKEY_get0_EC_KEY(const EVP_PKEY *pkey);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:24:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   24 |     (key) = EVP_PKEY_get0_EC_KEY(_pkey); \
+      |           ^
+ossl_pkey_ec.c:233:5: note: in expansion of macro 'GetEC'
+  233 |     GetEC(self, ec);
+      |     ^~~~~
+ossl_pkey_ec.c:234:5: warning: 'EC_KEY_get0_group' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  234 |     group = EC_KEY_get0_group(ec);
+      |     ^~~~~
+/usr/include/openssl/ec.h:1034:39: note: declared here
+ 1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *EC_KEY_get0_group(const EC_KEY *key);
+      |                                       ^~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_key_get_private_key':
+ossl_pkey_ec.c:278:5: warning: 'EVP_PKEY_get0_EC_KEY' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  278 |     GetEC(self, ec);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1374:25: note: declared here
+ 1374 | const struct ec_key_st *EVP_PKEY_get0_EC_KEY(const EVP_PKEY *pkey);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:24:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   24 |     (key) = EVP_PKEY_get0_EC_KEY(_pkey); \
+      |           ^
+ossl_pkey_ec.c:278:5: note: in expansion of macro 'GetEC'
+  278 |     GetEC(self, ec);
+      |     ^~~~~
+ossl_pkey_ec.c:279:5: warning: 'EC_KEY_get0_private_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  279 |     if ((bn = EC_KEY_get0_private_key(ec)) == NULL)
+      |     ^~
+/usr/include/openssl/ec.h:1048:37: note: declared here
+ 1048 | OSSL_DEPRECATEDIN_3_0 const BIGNUM *EC_KEY_get0_private_key(const EC_KEY *key);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_key_get_public_key':
+ossl_pkey_ec.c:329:5: warning: 'EVP_PKEY_get0_EC_KEY' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  329 |     GetEC(self, ec);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1374:25: note: declared here
+ 1374 | const struct ec_key_st *EVP_PKEY_get0_EC_KEY(const EVP_PKEY *pkey);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:24:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   24 |     (key) = EVP_PKEY_get0_EC_KEY(_pkey); \
+      |           ^
+ossl_pkey_ec.c:329:5: note: in expansion of macro 'GetEC'
+  329 |     GetEC(self, ec);
+      |     ^~~~~
+ossl_pkey_ec.c:330:5: warning: 'EC_KEY_get0_public_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  330 |     if ((point = EC_KEY_get0_public_key(ec)) == NULL)
+      |     ^~
+/usr/include/openssl/ec.h:1062:39: note: declared here
+ 1062 | OSSL_DEPRECATEDIN_3_0 const EC_POINT *EC_KEY_get0_public_key(const EC_KEY *key);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:333:5: warning: 'EC_KEY_get0_group' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  333 |     return ec_point_new(point, EC_KEY_get0_group(ec));
+      |     ^~~~~~
+/usr/include/openssl/ec.h:1034:39: note: declared here
+ 1034 | OSSL_DEPRECATEDIN_3_0 const EC_GROUP *EC_KEY_get0_group(const EC_KEY *key);
+      |                                       ^~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_key_is_public':
+ossl_pkey_ec.c:380:5: warning: 'EVP_PKEY_get0_EC_KEY' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  380 |     GetEC(self, ec);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1374:25: note: declared here
+ 1374 | const struct ec_key_st *EVP_PKEY_get0_EC_KEY(const EVP_PKEY *pkey);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:24:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   24 |     (key) = EVP_PKEY_get0_EC_KEY(_pkey); \
+      |           ^
+ossl_pkey_ec.c:380:5: note: in expansion of macro 'GetEC'
+  380 |     GetEC(self, ec);
+      |     ^~~~~
+ossl_pkey_ec.c:382:5: warning: 'EC_KEY_get0_public_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  382 |     return EC_KEY_get0_public_key(ec) ? Qtrue : Qfalse;
+      |     ^~~~~~
+/usr/include/openssl/ec.h:1062:39: note: declared here
+ 1062 | OSSL_DEPRECATEDIN_3_0 const EC_POINT *EC_KEY_get0_public_key(const EC_KEY *key);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_key_is_private':
+ossl_pkey_ec.c:396:5: warning: 'EVP_PKEY_get0_EC_KEY' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  396 |     GetEC(self, ec);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1374:25: note: declared here
+ 1374 | const struct ec_key_st *EVP_PKEY_get0_EC_KEY(const EVP_PKEY *pkey);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:24:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   24 |     (key) = EVP_PKEY_get0_EC_KEY(_pkey); \
+      |           ^
+ossl_pkey_ec.c:396:5: note: in expansion of macro 'GetEC'
+  396 |     GetEC(self, ec);
+      |     ^~~~~
+ossl_pkey_ec.c:398:5: warning: 'EC_KEY_get0_private_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  398 |     return EC_KEY_get0_private_key(ec) ? Qtrue : Qfalse;
+      |     ^~~~~~
+/usr/include/openssl/ec.h:1048:37: note: declared here
+ 1048 | OSSL_DEPRECATEDIN_3_0 const BIGNUM *EC_KEY_get0_private_key(const EC_KEY *key);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_key_export':
+ossl_pkey_ec.c:416:5: warning: 'EVP_PKEY_get0_EC_KEY' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  416 |     GetEC(self, ec);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1374:25: note: declared here
+ 1374 | const struct ec_key_st *EVP_PKEY_get0_EC_KEY(const EVP_PKEY *pkey);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:24:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   24 |     (key) = EVP_PKEY_get0_EC_KEY(_pkey); \
+      |           ^
+ossl_pkey_ec.c:416:5: note: in expansion of macro 'GetEC'
+  416 |     GetEC(self, ec);
+      |     ^~~~~
+ossl_pkey_ec.c:417:5: warning: 'EC_KEY_get0_public_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  417 |     if (EC_KEY_get0_public_key(ec) == NULL)
+      |     ^~
+/usr/include/openssl/ec.h:1062:39: note: declared here
+ 1062 | OSSL_DEPRECATEDIN_3_0 const EC_POINT *EC_KEY_get0_public_key(const EC_KEY *key);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:419:5: warning: 'EC_KEY_get0_private_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  419 |     if (EC_KEY_get0_private_key(ec))
+      |     ^~
+/usr/include/openssl/ec.h:1048:37: note: declared here
+ 1048 | OSSL_DEPRECATEDIN_3_0 const BIGNUM *EC_KEY_get0_private_key(const EC_KEY *key);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_key_to_der':
+ossl_pkey_ec.c:436:5: warning: 'EVP_PKEY_get0_EC_KEY' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  436 |     GetEC(self, ec);
+      |     ^~~~~
+/usr/include/openssl/evp.h:1374:25: note: declared here
+ 1374 | const struct ec_key_st *EVP_PKEY_get0_EC_KEY(const EVP_PKEY *pkey);
+      |                         ^~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:24:11: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   24 |     (key) = EVP_PKEY_get0_EC_KEY(_pkey); \
+      |           ^
+ossl_pkey_ec.c:436:5: note: in expansion of macro 'GetEC'
+  436 |     GetEC(self, ec);
+      |     ^~~~~
+ossl_pkey_ec.c:437:5: warning: 'EC_KEY_get0_public_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  437 |     if (EC_KEY_get0_public_key(ec) == NULL)
+      |     ^~
+/usr/include/openssl/ec.h:1062:39: note: declared here
+ 1062 | OSSL_DEPRECATEDIN_3_0 const EC_POINT *EC_KEY_get0_public_key(const EC_KEY *key);
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c:439:5: warning: 'EC_KEY_get0_private_key' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  439 |     if (EC_KEY_get0_private_key(ec))
+      |     ^~
+/usr/include/openssl/ec.h:1048:37: note: declared here
+ 1048 | OSSL_DEPRECATEDIN_3_0 const BIGNUM *EC_KEY_get0_private_key(const EC_KEY *key);
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_group_initialize':
+linking shared-object debug/debug.so
+ossl_pkey_ec.c:577:13: warning: 'PEM_read_bio_ECPKParameters' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  577 |             group = PEM_read_bio_ECPKParameters(in, NULL, NULL, NULL);
+      |             ^~~~~
+In file included from /usr/include/openssl/ssl.h:36,
+                 from ossl.h:25:
+/usr/include/openssl/pem.h:461:1: note: declared here
+  461 | DECLARE_PEM_rw_attr(OSSL_DEPRECATEDIN_3_0, ECPKParameters, EC_GROUP)
+      | ^~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_group_to_string':
+ossl_pkey_ec.c:1023:9: warning: 'PEM_write_bio_ECPKParameters' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+ 1023 |         i = PEM_write_bio_ECPKParameters(out, group);
+      |         ^
+/usr/include/openssl/pem.h:461:1: note: declared here
+  461 | DECLARE_PEM_rw_attr(OSSL_DEPRECATEDIN_3_0, ECPKParameters, EC_GROUP)
+      | ^~~~~~~~~~~~~~~~~~~
+ossl_pkey_ec.c: In function 'ossl_ec_group_to_text':
+ossl_pkey_ec.c:1081:5: warning: 'ECPKParameters_print' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+ 1081 |     if (!ECPKParameters_print(out, group, 0)) {
+      |     ^~
+/usr/include/openssl/ec.h:926:27: note: declared here
+  926 | OSSL_DEPRECATEDIN_3_0 int ECPKParameters_print(BIO *bp, const EC_GROUP *x,
+      |                           ^~~~~~~~~~~~~~~~~~~~
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/racc/cparse'
+ossl_pkey_ec.c: In function 'ossl_ec_point_initialize':
+ossl_pkey_ec.c:1168:13: warning: 'EC_POINT_bn2point' is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+ 1168 |             point = EC_POINT_bn2point(group, GetBNPtr(arg2), NULL, ossl_bn_ctx);
+      |             ^~~~~
+/usr/include/openssl/ec.h:774:33: note: declared here
+  774 | OSSL_DEPRECATEDIN_3_0 EC_POINT *EC_POINT_bn2point(const EC_GROUP *,
+      |                                 ^~~~~~~~~~~~~~~~~
+linking shared-object syslog.so
+linking shared-object psych.so
+linking shared-object -test-/integer.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/string'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/.bundle/gems/debug-1.6.3/ext/debug'
+linking shared-object -test-/time.so
+linking shared-object -test-/rational.so
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/syslog'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/psych'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/integer'
+linking shared-object digest/bubblebabble.so
+linking shared-object fiddle.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/time'
+linking shared-object readline.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/rational'
+linking shared-object digest/md5.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/bubblebabble'
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/readline'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/md5'
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/fiddle'
+linking shared-object digest/rmd160.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/rmd160'
+linking shared-object objspace.so
+linking shared-object -test-/scan_args.so
+linking shared-object io/console.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/objspace'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/-test-/scan_args'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/io/console'
+linking shared-object digest/sha1.so
+linking shared-object digest/sha2.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/sha1'
+linking shared-object json/ext/parser.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/sha2'
+linking shared-object strscan.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/json/parser'
+linking shared-object stringio.so
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/strscan'
+linking shared-object rbs_extension.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/stringio'
+linking shared-object pathname.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/.bundle/gems/rbs-2.7.0/ext/rbs_extension'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/pathname'
+linking shared-object json/ext/generator.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/json/generator'
+At top level:
+cc1: note: unrecognized command-line option '-Wno-self-assign' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-parentheses-equality' may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option '-Wno-constant-logical-operand' may have been intended to silence earlier diagnostics
+linking shared-object openssl.so
+linking shared-object socket.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/socket'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/openssl'
+linking shared-object zlib.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/zlib'
+linking shared-object nkf.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/nkf'
+linking shared-object bigdecimal.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/bigdecimal'
+linking shared-object date_core.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/date'
+linking shared-object ripper.so
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/ripper'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+./revision.h unchanged
+linking ruby
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Nothing to be done for 'note'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+-> make install
+./revision.h unchanged
+generating x86_64-linux-fake.rb
+x86_64-linux-fake.rb updated
+	BASERUBY = echo executable host ruby is required.  use --with-baseruby option.; false
+	CC = gcc
+	LD = ld
+	LDSHARED = gcc -shared
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wold-style-definition -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable -Wundef -std=gnu99  -fPIC 
+	XCFLAGS = -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fno-strict-overflow -fvisibility=hidden -fexcess-precision=standard -DRUBY_EXPORT -I. -I.ext/include/x86_64-linux -I./include -I. -I./enc/unicode/13.0.0 
+	CPPFLAGS =   
+	DLDFLAGS = -Wl,--compress-debug-sections=zlib -Wl,-soname,libruby.so.3.1  -fstack-protector-strong  
+	SOLIBS = -lz -lpthread -lrt -lrt -ldl -lcrypt -lm 
+	LANG = 
+	LC_ALL = 
+	LC_CTYPE = 
+	MFLAGS = 
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+generating enc.mk
+making srcs under enc
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Nothing to be done for 'srcs'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+generating transdb.h
+transdb.h unchanged
+generating makefiles ext/configure-ext.mk
+ext/configure-ext.mk updated
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+generating makefile exts.mk
+exts.mk unchanged
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/bigdecimal'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/bigdecimal'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/coverage'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/coverage'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/date'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/date'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/sha2'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/digest/sha2'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/fiddle'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/fiddle'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/io/console'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/io/console'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/json'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/json'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/monitor'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/monitor'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/nkf'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/nkf'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/objspace'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/objspace'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/openssl'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/openssl'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/pathname'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/pathname'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/psych'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/psych'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/pty'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/pty'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/ripper'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/ripper'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/rubyvm'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/rubyvm'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/socket'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/socket'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/syslog'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/ext/syslog'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/.bundle/gems/debug-1.6.3/ext/debug'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/.bundle/gems/debug-1.6.3/ext/debug'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/.bundle/gems/rbs-2.7.0/ext/rbs_extension'
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6/.bundle/gems/rbs-2.7.0/ext/rbs_extension'
+make[2]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+./revision.h unchanged
+make[2]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Nothing to be done for 'note'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+making enc
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Nothing to be done for 'enc'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+making trans
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Nothing to be done for './enc/trans'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+making encs
+make[1]: Entering directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+make[1]: Nothing to be done for 'encs'.
+make[1]: Leaving directory '/tmp/ruby-build.20260331132748.452.Hur4hW/ruby-3.1.6'
+./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems -r./x86_64-linux-fake ./tool/rbinstall.rb --make="make" --dest-dir="" --extout=".ext" --ext-build-dir="./ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="man"  --gnumake --install=all --exclude=doc
+installing binary commands:         /opt/rbenv/versions/3.1.6/bin
+installing base libraries:          /opt/rbenv/versions/3.1.6/lib
+installing arch files:              /opt/rbenv/versions/3.1.6/lib/ruby/3.1.0/x86_64-linux
+installing pkgconfig data:          /opt/rbenv/versions/3.1.6/lib/pkgconfig
+installing extension objects:       /opt/rbenv/versions/3.1.6/lib/ruby/3.1.0/x86_64-linux
+installing extension objects:       /opt/rbenv/versions/3.1.6/lib/ruby/site_ruby/3.1.0/x86_64-linux
+installing extension objects:       /opt/rbenv/versions/3.1.6/lib/ruby/vendor_ruby/3.1.0/x86_64-linux
+installing extension headers:       /opt/rbenv/versions/3.1.6/include/ruby-3.1.0/x86_64-linux
+installing extension scripts:       /opt/rbenv/versions/3.1.6/lib/ruby/3.1.0
+installing extension scripts:       /opt/rbenv/versions/3.1.6/lib/ruby/site_ruby/3.1.0
+installing extension scripts:       /opt/rbenv/versions/3.1.6/lib/ruby/vendor_ruby/3.1.0
+installing extension headers:       /opt/rbenv/versions/3.1.6/include/ruby-3.1.0/ruby
+installing command scripts:         /opt/rbenv/versions/3.1.6/bin
+installing library scripts:         /opt/rbenv/versions/3.1.6/lib/ruby/3.1.0
+installing common headers:          /opt/rbenv/versions/3.1.6/include/ruby-3.1.0
+installing manpages:                /opt/rbenv/versions/3.1.6/share/man/man1
+installing default gems from lib:   /opt/rbenv/versions/3.1.6/lib/ruby/gems/3.1.0
+                                    abbrev 0.1.0
+                                    base64 0.1.1
+                                    benchmark 0.2.0
+                                    bundler 2.3.27
+                                    cgi 0.3.6
+                                    csv 3.2.5
+                                    delegate 0.2.0
+                                    did_you_mean 1.6.1
+                                    drb 2.1.0
+                                    english 0.7.1
+                                    erb 2.2.3
+                                    error_highlight 0.3.0
+                                    fileutils 1.6.0
+                                    find 0.1.1
+                                    forwardable 1.3.2
+                                    getoptlong 0.1.1
+                                    ipaddr 1.2.4
+                                    irb 1.4.1
+                                    logger 1.5.0
+                                    mutex_m 0.1.1
+                                    net-http 0.3.0.1
+                                    net-protocol 0.1.2
+                                    observer 0.1.1
+                                    open-uri 0.2.0
+                                    open3 0.1.1
+                                    optparse 0.2.0
+                                    ostruct 0.5.2
+                                    pp 0.3.0
+                                    prettyprint 0.1.1
+                                    pstore 0.1.1
+                                    racc 1.6.0
+                                    rdoc 6.4.1.1
+                                    readline 0.0.3
+                                    reline 0.3.1
+                                    resolv 0.2.1
+                                    resolv-replace 0.1.0
+                                    rinda 0.1.1
+                                    ruby2_keywords 0.0.5
+                                    securerandom 0.2.0
+                                    set 1.0.2
+                                    shellwords 0.1.0
+                                    singleton 0.1.1
+                                    tempfile 0.1.2
+                                    time 0.2.2
+                                    timeout 0.2.0
+                                    tmpdir 0.1.2
+                                    tsort 0.1.0
+                                    un 0.2.0
+                                    uri 0.12.2
+                                    weakref 0.1.1
+                                    yaml 0.2.0
+installing default gems from ext:   /opt/rbenv/versions/3.1.6/lib/ruby/gems/3.1.0
+                                    bigdecimal 3.1.1
+                                    date 3.2.2
+                                    digest 3.1.0
+                                    etc 1.3.0
+                                    fcntl 1.0.1
+                                    fiddle 1.1.0
+                                    io-console 0.5.11
+                                    io-nonblock 0.1.0
+                                    io-wait 0.2.1
+                                    json 2.6.1
+                                    nkf 0.1.1
+                                    openssl 3.0.1
+                                    pathname 0.2.0
+                                    psych 4.0.4
+                                    readline-ext 0.1.4
+                                    stringio 3.0.1.2
+                                    strscan 3.0.1
+                                    syslog 0.1.0
+                                    zlib 2.1.1
+installing bundled gems:            /opt/rbenv/versions/3.1.6/lib/ruby/gems/3.1.0
+                                    minitest 5.15.0
+                                    power_assert 2.0.1
+                                    rake 13.0.6
+                                    test-unit 3.5.3
+                                    rexml 3.2.5
+                                    rss 0.2.9
+                                    net-ftp 0.1.4
+                                    net-imap 0.2.4
+                                    net-pop 0.1.1
+                                    net-smtp 0.3.1.1
+                                    matrix 0.4.2
+                                    prime 0.1.2
+                                    rbs 2.7.0
+Building native extensions. This could take a while...
+                                    typeprof 0.21.3
+                                    debug 1.6.3
+Building native extensions. This could take a while...
+installing bundled gem cache:       /opt/rbenv/versions/3.1.6/lib/ruby/gems/3.1.0/cache
+==> Installed ruby-3.1.6 to /opt/rbenv/versions/3.1.6
